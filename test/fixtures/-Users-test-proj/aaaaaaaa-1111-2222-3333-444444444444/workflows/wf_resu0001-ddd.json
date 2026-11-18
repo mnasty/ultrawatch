@@ -1,0 +1,1 @@
+{"runId":"wf_resu0001-ddd","workflowName":"demo-resume","status":"killed","startTime":1793107800000,"durationMs":240000,"timestamp":"2026-10-27T13:34:00.000Z","phases":[{"title":"Understand"},{"title":"Design"}],"defaultModel":"claude-opus-5-5","totalTokens":1,"totalToolCalls":0,"logs":[],"workflowProgress":[]}

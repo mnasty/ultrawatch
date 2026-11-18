@@ -1,0 +1,11 @@
+◆ (workflow script not found)  wf_emoj0001-fff  ◌ idle 43m  45m00s since 17:45                                                                  default opus-5.5
+tokens 9.5k · out≈80 · in+cache 19k · tools 1 · api 2 · session aaaaaaaa · active 43m ago
+agents ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ 0 done · 1 running / 1 agents seen
+ ▶ Shine ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ 0/1 · 1 running
+  agent      phase model      time   out   ctx tool progress          ago current activity                                                                     
+◌ emoji:✨fx Shine opus-5.5 45m00s    80  9.5k    1 ░░░░░░░░░░░░░░░░  43m idle 43m · “Working on it ✅✅✅✅✅✅ 日本語のテキスト 🚀🚀 ✨✨ ⚡ ❌ 🫠 👍 ⚠ 👨👩…
+── feed ───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+17:45:00 emoji:✨fx opus-5.5 ▶ started · Shine
+17:46:00 emoji:✨fx opus-5.5 Bash: Check ✅ marks ⚡ fast
+17:47:00 emoji:✨fx opus-5.5 “Working on it ✅✅✅✅✅✅ 日本語のテキスト 🚀🚀 ✨✨ ⚡ ❌ 🫠 👍 ⚠ 👨👩👧 US and more words to need truncation at every width wh…
+ultrawatch 1.0.0 · 18:30:00

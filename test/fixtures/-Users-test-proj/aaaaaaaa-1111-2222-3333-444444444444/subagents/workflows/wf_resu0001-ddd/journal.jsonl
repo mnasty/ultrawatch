@@ -1,0 +1,5 @@
+{"type":"launched"}
+{"type":"result","key":"v2:u","agentId":"a100000000000000a","result":"cached understanding"}
+{"type":"started","key":"v2:x-old","agentId":"b100000000000000b","label":"design:x","phase":"Design"}
+{"type":"failed","key":"v2:x-old","agentId":"b100000000000000b"}
+{"type":"started","key":"v2:x-new","agentId":"b200000000000000b","label":"design:x","phase":"Design"}

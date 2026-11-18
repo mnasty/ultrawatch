@@ -1,0 +1,33 @@
+[?1049h[?25l[H[2J[?2026h[H[1m[35m◆ demo-running[0m[0m  [90mwf_run00001-aaa[0m  [1;33m◌ idle 8h[0m  [97m8h58m[0m[90m since Oct 27 18:05[0m               [90mdefault [0mopus-5.5[0m[K
+[90mA running demo workflow with three agents[0m[0m[K
+[90mtokens [97m111k[0m[90m · [0mout≈[97m274[0m[90m · [0min+cache [97m193k[0m[90m · [0mtools [97m6[0m[31m (1 err)[0m[90m · [0mapi [97m6[0m[90m · [0msession [97maaaaaaaa[0m[90m · [0mactive [97m8h[0m ago[0m[0m[K
+[1magents[0m [32m██████████[0m[36m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[90m░░░░░░░░░░[0m [32m1 done[0m[90m · [0m[36m2 running[0m[90m / 3 seen[0m[90m (~4 in script)[0m[0m[K
+   Design [32m████████[0m[36m▒▒▒▒▒▒▒▒[0m[90m[0m 1/2[36m · 1 running[0m[90m  two designers in parallel[0m[0m[K
+ [36m▶[0m [1mBuild [0m [36m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[90m[0m 0/1[36m · 1 running[0m[90m  one builder[0m[0m[K
+[90m  agent      phase  model        time   out   ctx tool progress    ago current activity           [0m[0m[K
+[7m✓ design:one Design opus-5.5    5m01s   150   41k    2 ██████ 3/3   8h → design one is finished   [0m[0m[K
+[33m◌[0m [92mdesign:two[0m [90mDesign[0m [34mopus-5.5[0m    8h55m   102   52k    3 [36m███[0m[90m░░░[0m 2/4   [90m8h[0m [33midle 8h · [0mWebFetch develop[0m…[0m[K
+[33m◌[0m [32mbuild:main[0m [90mBuild[0m  [34msonnet-4.5[0m  8h45m    22   18k    1 [90m░░░░░░░░░░[0m   [90m8h[0m [33midle 8h · [0mBash: Build ever[0m…[0m[K
+[90m── feed ──────────────────────────────────────────────────────────────────────────────────────────[0m[0m[K
+[90m18:05:00[0m [93mdesign:one[0m [34mopus-5.5  [0m [36m▶ started · Design[0m[0m[K
+[90m18:06:00[0m [93mdesign:one[0m [34mopus-5.5  [0m Read app.tsx[0m[K
+[90m18:08:00[0m [92mdesign:two[0m [34mopus-5.5  [0m [36m▶ started · Design[0m[0m[K
+[90m18:09:00[0m [92mdesign:two[0m [34mopus-5.5  [0m Bash: Run the unit tests[0m[K
+[90m18:09:30[0m [92mdesign:two[0m [34mopus-5.5  [0m [31m✗ Bash: Exit code 1 FAIL sky.test.js expected 3 got 4[0m[0m[K
+[90m18:10:00[0m [93mdesign:one[0m [34mopus-5.5  [0m [97m“The design is done; returning.”[0m[0m[K
+[90m18:10:00[0m [93mdesign:one[0m [34mopus-5.5  [0m returning result[0m[K
+[90m18:10:00[0m [92mdesign:two[0m [34mopus-5.5  [0m [97m“One test fails; fixing the sky colour. Second line of text.”[0m[0m[K
+[90m18:10:00[0m [92mdesign:two[0m [34mopus-5.5  [0m Edit sky.js[0m[K
+[90m18:10:01[0m [93mdesign:one[0m [34mopus-5.5  [0m [1;32m✓ [0m[32mfinished: design one is finished[0m[0m[K
+[90m18:18:00[0m [32mbuild:main[0m [34msonnet-4.5[0m [36m▶ started · Build[0m[0m[K
+[90m18:25:00[0m [32mbuild:main[0m [34msonnet-4.5[0m Bash: Build everything[0m[K
+[90m18:29:00[0m [92mdesign:two[0m [34mopus-5.5  [0m WebFetch developers.cloudflare.com/workers/runtime-apis/cache/[0m[K
+[0m[K
+[0m[K
+[0m[K
+[0m[K
+[0m[K
+[90mq · jk · ⏎ · p · a · ?[0m                              [33m1 other run(s) running · a: show all[0m[90m · [0m[90m03:03:20[0m[0m[K[J[?2026l[?2026l[0m[?25h[?1049lultrawatch crashed: Error: simulated crash (ULTRAWATCH_TEST_CRASH_MS)
+    at Timeout._onTimeout (file:///Users/mick/.claude/tools/ultrawatch/ultrawatch.mjs:2076:70)
+    at listOnTimeout (node:internal/timers:605:17)
+    at process.processTimers (node:internal/timers:541:7)

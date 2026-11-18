@@ -1,0 +1,1 @@
+true,"agentId":"a300000000000000a","type":"user","message":{"role":"user","content":[{"tool_use_id":"toolu_000011","type":"tool_result","content":"results…","is_error":false}]},"uuid":"u00000077","timestamp":"2026-10-27T18:29:00.000Z","sessionId":"sess"}

@@ -1,0 +1,200 @@
+
+helpers
+  ok   shortModel opus-5-5
+  ok   shortModel dated sonnet
+  ok   shortModel old-style haiku
+  ok   shortModel vertex style
+  ok   shortModel bedrock style
+  ok   shortModel keeps context suffix
+  ok   shortModel unknown passthrough
+  ok   Bash uses description
+  ok   Bash falls back to first command line
+  ok   Read basename
+  ok   Write basename + size
+  ok   WebSearch query
+  ok   WebFetch strips scheme
+  ok   mcp tool name
+  ok   clean strips escapes/control chars
+  ok   parseLimit reset text
+  ok   parseLimit ignores normal text
+  ok   trunc ascii
+  ok   trunc wide chars keeps width
+  ok   splitKeys
+  ok   parseArgs
+
+script meta (no eval)
+  ok   meta literal with comments + trailing commas
+  ok   meta with non-literal falls back
+  ok   agent() estimate ignores strings
+  ok   parseJsLiteral values
+  ok   parseJsLiteral refuses code
+
+progress files
+  ok   promptTotal counts numbered deliverables
+  ok   promptTotal counts todo items
+  ok   parseProgress todo/done
+  ok   parseProgress done beyond deliverables
+  ok   parseProgress findings sections
+  ok   placeholder folder resolved from label
+  ok   paths after $VAR are not taken
+
+running run
+  ok   status running (no run json)
+  ok   slots and statuses
+  ok   models from message.model
+  ok   design agent progress = done lines / deliverables
+  ok   edit-stage progress = done / todo items
+  ok   no progress file -> activity indicator
+  ok   stalled detection while waiting on Bash
+  ok   current activity = pending WebFetch
+  ok   tool calls, tool errors, malformed line skipped
+  ok   context size = input + cache read + cache creation
+  ok   run tokens = sum of latest contexts
+  ok   counts and script estimate
+  ok   phase grouping + current phase
+  ok   feed has the tool error
+  ok   feed is time-ordered
+  ok   feed omits plain tool results
+
+completed run
+  ok   status, name, totals agree with run json
+  ok   result preview from journal
+  ok   elapsed from run json durationMs
+
+failed run with session limit
+  ok   failed status + failed agents
+  ok   limit banner data (reset time from the error text)
+  ok   failed agent shows the limit error
+  ok   synthetic messages do not set a model (run default shown as assumed)
+
+resumed run (cached results, retry under a new key)
+  ok   stale run json (older than journal) -> running again
+  ok   cached slot + merged retry
+  ok   api request after the last event = model is thinking
+
+partial trailing line
+  ok   partial line held back
+  ok   tool still pending before the rest arrives
+  ok   completed line parsed once, no garbage
+  ok   activity moves on after the result
+
+file appearing mid-run, truncation, permission errors
+  ok   new transcript picked up without restart
+  ok   truncated transcript resets the agent state
+  ok   unreadable file is reported, not thrown
+
+run finishing while watched
+  ok   running before the json appears
+  ok   flips to completed; unfinished agents show as stopped
+  ok   status change appears in the feed
+
+emoji and wide characters
+  ok   emoji presentation + CJK are 2 columns
+  ok   UI glyphs and accents are 1 column
+  ok   VS16 makes a text symbol wide; skin tone and ZWJ add nothing
+  ok   clean() tames emoji sequences to predictable widths
+  ok   trunc never exceeds 7 columns with emoji
+  ok   trunc never exceeds 8 columns with emoji
+  ok   trunc never exceeds 9 columns with emoji
+  ok   trunc never exceeds 10 columns with emoji
+  ok   emoji run --once fits 80 columns
+  ok   emoji run TUI frame fits 80x30
+  ok   emoji run focus frame fits 80x30
+  ok   emoji run --once fits 120 columns
+  ok   emoji run TUI frame fits 120x30
+  ok   emoji run focus frame fits 120x30
+  ok   emoji run --once fits 160 columns
+  ok   emoji run TUI frame fits 160x30
+  ok   emoji run focus frame fits 160x30
+  ok   snapshot emoji-80
+  ok   snapshot emoji-160
+
+relaunched run (script named after the original run)
+  ok   script found via the session transcript
+  ok   script found by its agent labels (decoy lacks one)
+
+progress file choice
+  ok   own progress.md (not the input findings.md) is the candidate before it exists
+  ok   switches to the own progress.md once it exists (re-checked every 3 s)
+  ok   a file the agent writes (>> redirect) outranks the prompt; a file it only reads does not count
+  ok   findings.md outside the own folder is never a candidate
+  ok   todo list total
+
+quiet runs with a pending tool call
+  ok   25 min in one Bash call: still running (view + quickStat)
+  ok   pending for 3 h: idle
+  ok   shown as stalled? while waiting
+
+live journal lines are stamped when they were written
+  ok   finish event at the journal write time, not the last transcript line
+  ok   agent time runs until the result was recorded
+  ok   feed stays in time order
+
+selection and small display fixes
+  ok   selected row uses reverse video (no fixed dark background)
+  ok   plain text keeps the status glyph and marks the row with ▸
+  ok   focus footer wording
+
+snapshot frames
+  ok   snapshot running-80
+  ok   snapshot failed-80
+  ok   snapshot resumed-80
+  ok   snapshot tui-80x24
+  ok   TUI frame fits 80x24 exactly
+  ok   snapshot focus-80
+  ok   focus frame fits 80x30
+  ok   snapshot running-160
+  ok   snapshot failed-160
+  ok   snapshot resumed-160
+  ok   snapshot tui-160x24
+  ok   TUI frame fits 160x24 exactly
+  ok   snapshot focus-160
+  ok   focus frame fits 160x30
+  ok   tiny terminal (60x12) still fits
+  ok   stacked view of two runs
+
+CLI
+  ok   --list (no colour when piped)
+  ok   --json snapshot
+  ok   default = most recently active running run
+  ok   --color forces colour
+  ok   --color beats NO_COLOR
+  ok   ambiguous --run prefix is an error
+  ok   missing root is reported
+  ok   --feed --agent filter, plain text
+  ok   unknown option exits 2
+  ok   stdout not a TTY -> feed mode (header + 3 backlog lines)
+
+live feed (append while following)
+  ok   appended tool call shown in the feed within 5 s (119 ms, machine heavily loaded)
+
+performance (20 MB transcript)
+  ok   first frame for 20.0 MB < 1500 ms (118.1 ms wall, 91.3 ms CPU, load 408 on 10 cores)
+  ok   all tool calls counted
+  ok   big frame rendered
+  ok   incremental tick < 50 ms (1.0 ms wall, 1.7 ms CPU, load 408 on 10 cores)
+  ok   idle tick < 20 ms (0.6 ms wall, 0.7 ms CPU, load 408 on 10 cores)
+
+TUI in a pseudo-terminal (script)
+  ok   80x24: alt screen + cursor restored after q
+  ok   80x24: 8 frames, each a home + full repaint inside one synchronized update
+  ok   80x24: no full-screen clears between frames
+  ok   80x24: final screen shows the dashboard
+  ok   80x24: focus view and help were shown
+  ok   160x45: alt screen + cursor restored after q
+  ok   160x45: 7 frames, each a home + full repaint inside one synchronized update
+  ok   160x45: no full-screen clears between frames
+  ok   160x45: final screen shows the dashboard
+  ok   160x45: focus view and help were shown
+  ok   Ctrl-C restores the terminal
+  ok   SIGTERM restores the terminal
+  ok   a crash restores the terminal and prints the error
+  ok   resize run exits cleanly on q
+  ok   resize (SIGWINCH) re-lays out the frame for 70x20
+  ok   SIGTERM exits promptly while the terminal is not reading, tty left cooked
+  ok   no ultrawatch test process left running
+
+read-only
+  ok   ultrawatch wrote nothing into the watched tree
+
+154 passed, 0 failed

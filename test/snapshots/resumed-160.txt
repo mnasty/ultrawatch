@@ -1,0 +1,18 @@
+◆ demo-resume  wf_resu0001-ddd  ● running  10m00s since 18:20                                                                                   default opus-5.5
+tokens 12k · out≈85 · in+cache 30k · tools 1 · api 3 · session aaaaaaaa · active 20s ago
+agents ████████████████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ 1 done · 1 running / 2 agents seen
+ ✓ Understand ████████████████████████ 1/1
+ ▶ Design     ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ 0/1 · 1 running
+  agent           phase      model      time   out   ctx tool progress          ago current activity                                                           
+↺ understand:flow Understand opus-5.5  1m00s    50  9.0k    0 ███████████ done   4h → cached understanding                                                     
+⠋ design:x ↻2     Design     opus-5.5 10m00s    30   12k    1 ▓▒░░░░░░░░░░░░░░  20s thinking… (after Write page.html (13B) ✓)                                  
+── feed ───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+13:31:00 understand:flow opus-5.5 “done understanding”
+13:31:00 understand:flow opus-5.5 ✓ cached result: cached understanding
+13:32:00 design:x        opus-5.5 ▶ started · Design
+13:33:00 design:x        opus-5.5 “working”
+13:34:00 design:x        opus-5.5 ✗ interrupted (run stopped)
+13:34:00 design:x        opus-5.5 ✗ failed
+18:20:00 design:x        opus-5.5 ▶ started · Design · attempt 2
+18:21:00 design:x        opus-5.5 Write page.html (13B)
+ultrawatch 1.0.0 · 18:30:00

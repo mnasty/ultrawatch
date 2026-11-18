@@ -1,0 +1,5 @@
+{"type":"launched"}
+{"type":"started","key":"v2:g","agentId":"e000000000000000e","label":"design:gorey","phase":"Design"}
+{"type":"started","key":"v2:k","agentId":"f000000000000000f","label":"design:kawaii","phase":"Design"}
+{"type":"failed","key":"v2:g","agentId":"e000000000000000e"}
+{"type":"failed","key":"v2:k","agentId":"f000000000000000f"}

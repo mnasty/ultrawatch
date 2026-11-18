@@ -1,0 +1,5 @@
+{"type":"launched"}
+{"type":"started","key":"v2:k1","agentId":"a000000000000000a","label":"design:one","phase":"Design"}
+{"type":"started","key":"v2:k2","agentId":"b000000000000000b","label":"design:two","phase":"Design"}
+{"type":"result","key":"v2:k1","agentId":"a000000000000000a","result":{"summary":"design one is finished"}}
+{"type":"started","key":"v2:k3","agentId":"c000000000000000c","label":"build:main","phase":"Build"}

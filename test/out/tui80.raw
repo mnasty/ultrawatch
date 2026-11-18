@@ -1,0 +1,436 @@
+[?1049h[?25l[H[2J[?2026h[H[1m[35m◆ ultrawatch[0m[0m  [90mwf_997c3870-43a[0m  [1;36m● running[0m  [97m19m31s[0m[90m since 18:39[0m   [90mdefault [0mopus-5.5[0m[K
+[90mBuild a live terminal tracker for workflow (ultracode) runs: progress bars, pe…[0m[0m[K
+[90mtokens [97m220k[0m[90m · [0mout≈[97m35k[0m[90m · [0min+cache [97m7.00M[0m[90m · [0mtools [97m52[0m[31m (2 err)[0m[90m · [0mapi [97m50[0m[90m · [0msession [97me[0m…[0m[K
+[1magents[0m [36m▒▒▒▒▒▒[0m[90m░░░░░░░░░░░░░[0m [32m0 done[0m[90m · [0m[36m1 running[0m[90m / 1 seen[0m[90m (~3 in script)[0m[0m[K
+ [36m▶[0m [1mBuild [0m [36m▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[90m[0m 0/1[36m · 1 running[0m[0m[K
+   [90mReview[0m [90m░░░░░░░░░░░░░[0m [90mnot started[0m[0m[K
+   [90mFix   [0m [90m░░░░░░░░░░░░░[0m [90mnot started[0m[0m[K
+[90m  agent            model      time tool progress   current activity           [0m[0m[K
+[48;5;236m[36m⠹[0m[48;5;236m [93mbuild:ultrawatch[0m[48;5;236m [34mopus-5.5[0m[48;5;236m 19m31s   52 [36m██████[0m[48;5;236m[90m[0m[48;5;236m 3/3 Bash: Run TUI in a pty at …[0m[0m[K
+[90m── feed ──────────────────────────────────────────────────────────────────────[0m[0m[K
+[90m18:55:41[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Show the first user messages of eval a[0m…[0m[K
+[90m18:55:56[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Accumulate multi-message prompts and r[0m…[0m[K
+[90m18:56:06[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Inspect findings.md heading formats[0m[K
+[90m18:56:17[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Count findings sections and fix design[0m…[0m[K
+[90m18:56:25[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Compare computed totals with harness j[0m…[0m[K
+[90m18:56:37[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Compare per-agent tokens with harness [0m…[0m[K
+[90m18:56:51[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Match harness token formula and mark e[0m…[0m[K
+[90m18:57:02[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Exclude earlier-launch slots from coun[0m…[0m[K
+[90m18:57:11[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Recheck totals against harness json[0m[K
+[90m18:57:21[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Show last assistant usage rows to deri[0m…[0m[K
+[90m18:57:29[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Recheck token totals with context-only[0m…[0m[K
+[90m18:57:34[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m [97m“Totals now match the harness within 0.2% (t[0m…[0m[K
+[90m18:57:35[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Render snapshot frames for failed and [0m…[0m[K
+[90m18:57:57[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Adjust narrow layout and render live r[0m…[0m[K
+[90m18:58:12[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Find agent( occurrences in ultrawatch [0m…[0m[K
+[90m18:58:31[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Add code-mask based agent estimate and[0m…[0m[K
+[90m18:58:44[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Estimate output tokens from content wh[0m…[0m[K
+[90m18:59:07[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Update PROGRESS.md and add VT emulator[0m…[0m[K
+[90m18:59:14[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Run TUI in a pty at 80x30 and reconstr[0m…[0m[K
+[90mq · jk · ⏎ · p · a · ?[0m                                                 [90m18:59:16[0m[0m[K[J[?2026l[?2026h[H[1m[35m◆ ultrawatch[0m[0m  [90mwf_997c3870-43a[0m  [1;36m● running[0m  [97m19m31s[0m[90m since 18:39[0m   [90mdefault [0mopus-5.5[0m[K
+[90mBuild a live terminal tracker for workflow (ultracode) runs: progress bars, pe…[0m[0m[K
+[90mtokens [97m220k[0m[90m · [0mout≈[97m35k[0m[90m · [0min+cache [97m7.00M[0m[90m · [0mtools [97m52[0m[31m (2 err)[0m[90m · [0mapi [97m50[0m[90m · [0msession [97me[0m…[0m[K
+[1magents[0m [36m▒▒▒▒▒▒[0m[90m░░░░░░░░░░░░░[0m [32m0 done[0m[90m · [0m[36m1 running[0m[90m / 1 seen[0m[90m (~3 in script)[0m[0m[K
+ [36m▶[0m [1mBuild [0m [36m▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[90m[0m 0/1[36m · 1 running[0m[0m[K
+   [90mReview[0m [90m░░░░░░░░░░░░░[0m [90mnot started[0m[0m[K
+   [90mFix   [0m [90m░░░░░░░░░░░░░[0m [90mnot started[0m[0m[K
+[90m  agent            model      time tool progress   current activity           [0m[0m[K
+[48;5;236m[36m⠴[0m[48;5;236m [93mbuild:ultrawatch[0m[48;5;236m [34mopus-5.5[0m[48;5;236m 19m31s   52 [36m██████[0m[48;5;236m[90m[0m[48;5;236m 3/3 Bash: Run TUI in a pty at …[0m[0m[K
+[90m── feed ──────────────────────────────────────────────────────────────────────[0m[0m[K
+[90m18:55:41[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Show the first user messages of eval a[0m…[0m[K
+[90m18:55:56[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Accumulate multi-message prompts and r[0m…[0m[K
+[90m18:56:06[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Inspect findings.md heading formats[0m[K
+[90m18:56:17[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Count findings sections and fix design[0m…[0m[K
+[90m18:56:25[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Compare computed totals with harness j[0m…[0m[K
+[90m18:56:37[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Compare per-agent tokens with harness [0m…[0m[K
+[90m18:56:51[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Match harness token formula and mark e[0m…[0m[K
+[90m18:57:02[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Exclude earlier-launch slots from coun[0m…[0m[K
+[90m18:57:11[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Recheck totals against harness json[0m[K
+[90m18:57:21[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Show last assistant usage rows to deri[0m…[0m[K
+[90m18:57:29[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Recheck token totals with context-only[0m…[0m[K
+[90m18:57:34[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m [97m“Totals now match the harness within 0.2% (t[0m…[0m[K
+[90m18:57:35[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Render snapshot frames for failed and [0m…[0m[K
+[90m18:57:57[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Adjust narrow layout and render live r[0m…[0m[K
+[90m18:58:12[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Find agent( occurrences in ultrawatch [0m…[0m[K
+[90m18:58:31[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Add code-mask based agent estimate and[0m…[0m[K
+[90m18:58:44[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Estimate output tokens from content wh[0m…[0m[K
+[90m18:59:07[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Update PROGRESS.md and add VT emulator[0m…[0m[K
+[90m18:59:14[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Run TUI in a pty at 80x30 and reconstr[0m…[0m[K
+[90mq · jk · ⏎ · p · a · ?[0m                                                 [90m18:59:16[0m[0m[K[J[?2026l[?2026h[H[1m[35m◆ ultrawatch[0m[0m  [90mwf_997c3870-43a[0m  [1;36m● running[0m  [97m19m31s[0m[90m since 18:39[0m   [90mdefault [0mopus-5.5[0m[K
+[90mBuild a live terminal tracker for workflow (ultracode) runs: progress bars, pe…[0m[0m[K
+[90mtokens [97m220k[0m[90m · [0mout≈[97m35k[0m[90m · [0min+cache [97m7.00M[0m[90m · [0mtools [97m52[0m[31m (2 err)[0m[90m · [0mapi [97m50[0m[90m · [0msession [97me[0m…[0m[K
+[1magents[0m [36m▒▒▒▒▒▒[0m[90m░░░░░░░░░░░░░[0m [32m0 done[0m[90m · [0m[36m1 running[0m[90m / 1 seen[0m[90m (~3 in script)[0m[0m[K
+ [36m▶[0m [1mBuild [0m [36m▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[90m[0m 0/1[36m · 1 running[0m[0m[K
+   [90mReview[0m [90m░░░░░░░░░░░░░[0m [90mnot started[0m[0m[K
+   [90mFix   [0m [90m░░░░░░░░░░░░░[0m [90mnot started[0m[0m[K
+[90m  agent            model      time tool progress   current activity           [0m[0m[K
+[48;5;236m[36m⠧[0m[48;5;236m [93mbuild:ultrawatch[0m[48;5;236m [34mopus-5.5[0m[48;5;236m 19m31s   52 [36m██████[0m[48;5;236m[90m[0m[48;5;236m 3/3 Bash: Run TUI in a pty at …[0m[0m[K
+[90m── feed ──────────────────────────────────────────────────────────────────────[0m[0m[K
+[90m18:55:41[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Show the first user messages of eval a[0m…[0m[K
+[90m18:55:56[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Accumulate multi-message prompts and r[0m…[0m[K
+[90m18:56:06[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Inspect findings.md heading formats[0m[K
+[90m18:56:17[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Count findings sections and fix design[0m…[0m[K
+[90m18:56:25[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Compare computed totals with harness j[0m…[0m[K
+[90m18:56:37[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Compare per-agent tokens with harness [0m…[0m[K
+[90m18:56:51[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Match harness token formula and mark e[0m…[0m[K
+[90m18:57:02[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Exclude earlier-launch slots from coun[0m…[0m[K
+[90m18:57:11[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Recheck totals against harness json[0m[K
+[90m18:57:21[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Show last assistant usage rows to deri[0m…[0m[K
+[90m18:57:29[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Recheck token totals with context-only[0m…[0m[K
+[90m18:57:34[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m [97m“Totals now match the harness within 0.2% (t[0m…[0m[K
+[90m18:57:35[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Render snapshot frames for failed and [0m…[0m[K
+[90m18:57:57[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Adjust narrow layout and render live r[0m…[0m[K
+[90m18:58:12[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Find agent( occurrences in ultrawatch [0m…[0m[K
+[90m18:58:31[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Add code-mask based agent estimate and[0m…[0m[K
+[90m18:58:44[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Estimate output tokens from content wh[0m…[0m[K
+[90m18:59:07[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Update PROGRESS.md and add VT emulator[0m…[0m[K
+[90m18:59:14[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Run TUI in a pty at 80x30 and reconstr[0m…[0m[K
+[90mq · jk · ⏎ · p · a · ?[0m                                                 [90m18:59:16[0m[0m[K[J[?2026l[?2026h[H[1m[35m◆ ultrawatch[0m[0m  [90mwf_997c3870-43a[0m  [1;36m● running[0m  [97m19m31s[0m[90m since 18:39[0m   [90mdefault [0mopus-5.5[0m[K
+[90mBuild a live terminal tracker for workflow (ultracode) runs: progress bars, pe…[0m[0m[K
+[90mtokens [97m220k[0m[90m · [0mout≈[97m35k[0m[90m · [0min+cache [97m7.00M[0m[90m · [0mtools [97m52[0m[31m (2 err)[0m[90m · [0mapi [97m50[0m[90m · [0msession [97me[0m…[0m[K
+[1magents[0m [36m▒▒▒▒▒▒[0m[90m░░░░░░░░░░░░░[0m [32m0 done[0m[90m · [0m[36m1 running[0m[90m / 1 seen[0m[90m (~3 in script)[0m[0m[K
+ [36m▶[0m [1mBuild [0m [36m▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[90m[0m 0/1[36m · 1 running[0m[0m[K
+   [90mReview[0m [90m░░░░░░░░░░░░░[0m [90mnot started[0m[0m[K
+   [90mFix   [0m [90m░░░░░░░░░░░░░[0m [90mnot started[0m[0m[K
+[90m  agent            model      time tool progress   current activity           [0m[0m[K
+[48;5;236m[36m⠋[0m[48;5;236m [93mbuild:ultrawatch[0m[48;5;236m [34mopus-5.5[0m[48;5;236m 19m31s   52 [36m██████[0m[48;5;236m[90m[0m[48;5;236m 3/3 Bash: Run TUI in a pty at …[0m[0m[K
+[90m── feed ──────────────────────────────────────────────────────────────────────[0m[0m[K
+[90m18:55:41[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Show the first user messages of eval a[0m…[0m[K
+[90m18:55:56[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Accumulate multi-message prompts and r[0m…[0m[K
+[90m18:56:06[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Inspect findings.md heading formats[0m[K
+[90m18:56:17[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Count findings sections and fix design[0m…[0m[K
+[90m18:56:25[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Compare computed totals with harness j[0m…[0m[K
+[90m18:56:37[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Compare per-agent tokens with harness [0m…[0m[K
+[90m18:56:51[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Match harness token formula and mark e[0m…[0m[K
+[90m18:57:02[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Exclude earlier-launch slots from coun[0m…[0m[K
+[90m18:57:11[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Recheck totals against harness json[0m[K
+[90m18:57:21[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Show last assistant usage rows to deri[0m…[0m[K
+[90m18:57:29[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Recheck token totals with context-only[0m…[0m[K
+[90m18:57:34[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m [97m“Totals now match the harness within 0.2% (t[0m…[0m[K
+[90m18:57:35[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Render snapshot frames for failed and [0m…[0m[K
+[90m18:57:57[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Adjust narrow layout and render live r[0m…[0m[K
+[90m18:58:12[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Find agent( occurrences in ultrawatch [0m…[0m[K
+[90m18:58:31[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Add code-mask based agent estimate and[0m…[0m[K
+[90m18:58:44[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Estimate output tokens from content wh[0m…[0m[K
+[90m18:59:07[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Update PROGRESS.md and add VT emulator[0m…[0m[K
+[90m18:59:14[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Run TUI in a pty at 80x30 and reconstr[0m…[0m[K
+[90mq · jk · ⏎ · p · a · ?[0m                                                 [90m18:59:17[0m[0m[K[J[?2026l[?2026h[H[1m[35m◆ ultrawatch[0m[0m  [90mwf_997c3870-43a[0m  [1;36m● running[0m  [97m19m32s[0m[90m since 18:39[0m   [90mdefault [0mopus-5.5[0m[K
+[90mBuild a live terminal tracker for workflow (ultracode) runs: progress bars, pe…[0m[0m[K
+[90mtokens [97m220k[0m[90m · [0mout≈[97m35k[0m[90m · [0min+cache [97m7.00M[0m[90m · [0mtools [97m52[0m[31m (2 err)[0m[90m · [0mapi [97m50[0m[90m · [0msession [97me[0m…[0m[K
+[1magents[0m [36m▒▒▒▒▒▒[0m[90m░░░░░░░░░░░░░[0m [32m0 done[0m[90m · [0m[36m1 running[0m[90m / 1 seen[0m[90m (~3 in script)[0m[0m[K
+ [36m▶[0m [1mBuild [0m [36m▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[90m[0m 0/1[36m · 1 running[0m[0m[K
+   [90mReview[0m [90m░░░░░░░░░░░░░[0m [90mnot started[0m[0m[K
+   [90mFix   [0m [90m░░░░░░░░░░░░░[0m [90mnot started[0m[0m[K
+[90m  agent            model      time tool progress   current activity           [0m[0m[K
+[48;5;236m[36m⠹[0m[48;5;236m [93mbuild:ultrawatch[0m[48;5;236m [34mopus-5.5[0m[48;5;236m 19m32s   52 [36m██████[0m[48;5;236m[90m[0m[48;5;236m 3/3 Bash: Run TUI in a pty at …[0m[0m[K
+[90m── feed ──────────────────────────────────────────────────────────────────────[0m[0m[K
+[90m18:55:41[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Show the first user messages of eval a[0m…[0m[K
+[90m18:55:56[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Accumulate multi-message prompts and r[0m…[0m[K
+[90m18:56:06[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Inspect findings.md heading formats[0m[K
+[90m18:56:17[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Count findings sections and fix design[0m…[0m[K
+[90m18:56:25[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Compare computed totals with harness j[0m…[0m[K
+[90m18:56:37[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Compare per-agent tokens with harness [0m…[0m[K
+[90m18:56:51[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Match harness token formula and mark e[0m…[0m[K
+[90m18:57:02[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Exclude earlier-launch slots from coun[0m…[0m[K
+[90m18:57:11[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Recheck totals against harness json[0m[K
+[90m18:57:21[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Show last assistant usage rows to deri[0m…[0m[K
+[90m18:57:29[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Recheck token totals with context-only[0m…[0m[K
+[90m18:57:34[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m [97m“Totals now match the harness within 0.2% (t[0m…[0m[K
+[90m18:57:35[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Render snapshot frames for failed and [0m…[0m[K
+[90m18:57:57[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Adjust narrow layout and render live r[0m…[0m[K
+[90m18:58:12[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Find agent( occurrences in ultrawatch [0m…[0m[K
+[90m18:58:31[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Add code-mask based agent estimate and[0m…[0m[K
+[90m18:58:44[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Estimate output tokens from content wh[0m…[0m[K
+[90m18:59:07[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Update PROGRESS.md and add VT emulator[0m…[0m[K
+[90m18:59:14[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Run TUI in a pty at 80x30 and reconstr[0m…[0m[K
+[90mq · jk · ⏎ · p · a · ?[0m                                                 [90m18:59:17[0m[0m[K[J[?2026l[?2026h[H[1m[35m◆ ultrawatch[0m[0m  [90mwf_997c3870-43a[0m  [1;36m● running[0m  [97m19m32s[0m[90m since 18:39[0m   [90mdefault [0mopus-5.5[0m[K
+[90mBuild a live terminal tracker for workflow (ultracode) runs: progress bars, pe…[0m[0m[K
+[90mtokens [97m220k[0m[90m · [0mout≈[97m35k[0m[90m · [0min+cache [97m7.00M[0m[90m · [0mtools [97m52[0m[31m (2 err)[0m[90m · [0mapi [97m50[0m[90m · [0msession [97me[0m…[0m[K
+[1magents[0m [36m▒▒▒▒▒▒[0m[90m░░░░░░░░░░░░░[0m [32m0 done[0m[90m · [0m[36m1 running[0m[90m / 1 seen[0m[90m (~3 in script)[0m[0m[K
+ [36m▶[0m [1mBuild [0m [36m▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[90m[0m 0/1[36m · 1 running[0m[0m[K
+   [90mReview[0m [90m░░░░░░░░░░░░░[0m [90mnot started[0m[0m[K
+   [90mFix   [0m [90m░░░░░░░░░░░░░[0m [90mnot started[0m[0m[K
+[90m  agent            model      time tool progress   current activity           [0m[0m[K
+[48;5;236m[36m⠴[0m[48;5;236m [93mbuild:ultrawatch[0m[48;5;236m [34mopus-5.5[0m[48;5;236m 19m32s   52 [36m██████[0m[48;5;236m[90m[0m[48;5;236m 3/3 Bash: Run TUI in a pty at …[0m[0m[K
+[90m── feed ──────────────────────────────────────────────────────────────────────[0m[0m[K
+[90m18:55:41[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Show the first user messages of eval a[0m…[0m[K
+[90m18:55:56[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Accumulate multi-message prompts and r[0m…[0m[K
+[90m18:56:06[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Inspect findings.md heading formats[0m[K
+[90m18:56:17[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Count findings sections and fix design[0m…[0m[K
+[90m18:56:25[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Compare computed totals with harness j[0m…[0m[K
+[90m18:56:37[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Compare per-agent tokens with harness [0m…[0m[K
+[90m18:56:51[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Match harness token formula and mark e[0m…[0m[K
+[90m18:57:02[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Exclude earlier-launch slots from coun[0m…[0m[K
+[90m18:57:11[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Recheck totals against harness json[0m[K
+[90m18:57:21[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Show last assistant usage rows to deri[0m…[0m[K
+[90m18:57:29[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Recheck token totals with context-only[0m…[0m[K
+[90m18:57:34[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m [97m“Totals now match the harness within 0.2% (t[0m…[0m[K
+[90m18:57:35[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Render snapshot frames for failed and [0m…[0m[K
+[90m18:57:57[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Adjust narrow layout and render live r[0m…[0m[K
+[90m18:58:12[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Find agent( occurrences in ultrawatch [0m…[0m[K
+[90m18:58:31[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Add code-mask based agent estimate and[0m…[0m[K
+[90m18:58:44[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Estimate output tokens from content wh[0m…[0m[K
+[90m18:59:07[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Update PROGRESS.md and add VT emulator[0m…[0m[K
+[90m18:59:14[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Run TUI in a pty at 80x30 and reconstr[0m…[0m[K
+[90mq · jk · ⏎ · p · a · ?[0m                                                 [90m18:59:17[0m[0m[K[J[?2026l[?2026h[H[1m[35m◆ ultrawatch[0m[0m  [90mwf_997c3870-43a[0m  [1;36m● running[0m  [97m19m32s[0m[90m since 18:39[0m   [90mdefault [0mopus-5.5[0m[K
+[90mBuild a live terminal tracker for workflow (ultracode) runs: progress bars, pe…[0m[0m[K
+[90mtokens [97m220k[0m[90m · [0mout≈[97m35k[0m[90m · [0min+cache [97m7.00M[0m[90m · [0mtools [97m52[0m[31m (2 err)[0m[90m · [0mapi [97m50[0m[90m · [0msession [97me[0m…[0m[K
+[1magents[0m [36m▒▒▒▒▒▒[0m[90m░░░░░░░░░░░░░[0m [32m0 done[0m[90m · [0m[36m1 running[0m[90m / 1 seen[0m[90m (~3 in script)[0m[0m[K
+ [36m▶[0m [1mBuild [0m [36m▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[90m[0m 0/1[36m · 1 running[0m[0m[K
+   [90mReview[0m [90m░░░░░░░░░░░░░[0m [90mnot started[0m[0m[K
+   [90mFix   [0m [90m░░░░░░░░░░░░░[0m [90mnot started[0m[0m[K
+[90m  agent            model      time tool progress   current activity           [0m[0m[K
+[48;5;236m[36m⠧[0m[48;5;236m [93mbuild:ultrawatch[0m[48;5;236m [34mopus-5.5[0m[48;5;236m 19m32s   52 [36m██████[0m[48;5;236m[90m[0m[48;5;236m 3/3 Bash: Run TUI in a pty at …[0m[0m[K
+[90m── feed ──────────────────────────────────────────────────────────────────────[0m[0m[K
+[90m18:55:41[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Show the first user messages of eval a[0m…[0m[K
+[90m18:55:56[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Accumulate multi-message prompts and r[0m…[0m[K
+[90m18:56:06[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Inspect findings.md heading formats[0m[K
+[90m18:56:17[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Count findings sections and fix design[0m…[0m[K
+[90m18:56:25[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Compare computed totals with harness j[0m…[0m[K
+[90m18:56:37[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Compare per-agent tokens with harness [0m…[0m[K
+[90m18:56:51[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Match harness token formula and mark e[0m…[0m[K
+[90m18:57:02[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Exclude earlier-launch slots from coun[0m…[0m[K
+[90m18:57:11[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Recheck totals against harness json[0m[K
+[90m18:57:21[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Show last assistant usage rows to deri[0m…[0m[K
+[90m18:57:29[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Recheck token totals with context-only[0m…[0m[K
+[90m18:57:34[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m [97m“Totals now match the harness within 0.2% (t[0m…[0m[K
+[90m18:57:35[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Render snapshot frames for failed and [0m…[0m[K
+[90m18:57:57[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Adjust narrow layout and render live r[0m…[0m[K
+[90m18:58:12[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Find agent( occurrences in ultrawatch [0m…[0m[K
+[90m18:58:31[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Add code-mask based agent estimate and[0m…[0m[K
+[90m18:58:44[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Estimate output tokens from content wh[0m…[0m[K
+[90m18:59:07[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Update PROGRESS.md and add VT emulator[0m…[0m[K
+[90m18:59:14[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Run TUI in a pty at 80x30 and reconstr[0m…[0m[K
+[90mq · jk · ⏎ · p · a · ?[0m                                                 [90m18:59:17[0m[0m[K[J[?2026l[?2026h[H[1m[35m◆ ultrawatch[0m[0m  [90mwf_997c3870-43a[0m  [1;36m● running[0m  [97m19m32s[0m[90m since 18:39[0m   [90mdefault [0mopus-5.5[0m[K
+[90mBuild a live terminal tracker for workflow (ultracode) runs: progress bars, pe…[0m[0m[K
+[90mtokens [97m220k[0m[90m · [0mout≈[97m35k[0m[90m · [0min+cache [97m7.00M[0m[90m · [0mtools [97m52[0m[31m (2 err)[0m[90m · [0mapi [97m50[0m[90m · [0msession [97me[0m…[0m[K
+[1magents[0m [36m▒▒▒▒▒▒[0m[90m░░░░░░░░░░░░░[0m [32m0 done[0m[90m · [0m[36m1 running[0m[90m / 1 seen[0m[90m (~3 in script)[0m[0m[K
+ [36m▶[0m [1mBuild [0m [36m▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[90m[0m 0/1[36m · 1 running[0m[0m[K
+   [90mReview[0m [90m░░░░░░░░░░░░░[0m [90mnot started[0m[0m[K
+   [90mFix   [0m [90m░░░░░░░░░░░░░[0m [90mnot started[0m[0m[K
+[90m  agent            model      time tool progress   current activity           [0m[0m[K
+[48;5;236m[36m⠋[0m[48;5;236m [93mbuild:ultrawatch[0m[48;5;236m [34mopus-5.5[0m[48;5;236m 19m32s   52 [36m██████[0m[48;5;236m[90m[0m[48;5;236m 3/3 Bash: Run TUI in a pty at …[0m[0m[K
+[90m── feed ──────────────────────────────────────────────────────────────────────[0m[0m[K
+[90m18:55:41[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Show the first user messages of eval a[0m…[0m[K
+[90m18:55:56[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Accumulate multi-message prompts and r[0m…[0m[K
+[90m18:56:06[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Inspect findings.md heading formats[0m[K
+[90m18:56:17[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Count findings sections and fix design[0m…[0m[K
+[90m18:56:25[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Compare computed totals with harness j[0m…[0m[K
+[90m18:56:37[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Compare per-agent tokens with harness [0m…[0m[K
+[90m18:56:51[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Match harness token formula and mark e[0m…[0m[K
+[90m18:57:02[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Exclude earlier-launch slots from coun[0m…[0m[K
+[90m18:57:11[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Recheck totals against harness json[0m[K
+[90m18:57:21[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Show last assistant usage rows to deri[0m…[0m[K
+[90m18:57:29[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Recheck token totals with context-only[0m…[0m[K
+[90m18:57:34[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m [97m“Totals now match the harness within 0.2% (t[0m…[0m[K
+[90m18:57:35[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Render snapshot frames for failed and [0m…[0m[K
+[90m18:57:57[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Adjust narrow layout and render live r[0m…[0m[K
+[90m18:58:12[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Find agent( occurrences in ultrawatch [0m…[0m[K
+[90m18:58:31[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Add code-mask based agent estimate and[0m…[0m[K
+[90m18:58:44[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Estimate output tokens from content wh[0m…[0m[K
+[90m18:59:07[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Update PROGRESS.md and add VT emulator[0m…[0m[K
+[90m18:59:14[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Run TUI in a pty at 80x30 and reconstr[0m…[0m[K
+[90mq · jk · ⏎ · p · a · ?[0m                                                 [90m18:59:18[0m[0m[K[J[?2026l[?2026h[H[1m[35m◆ ultrawatch[0m[0m  [90mwf_997c3870-43a[0m  [1;36m● running[0m  [97m19m33s[0m[90m since 18:39[0m   [90mdefault [0mopus-5.5[0m[K
+[90mBuild a live terminal tracker for workflow (ultracode) runs: progress bars, pe…[0m[0m[K
+[90mtokens [97m220k[0m[90m · [0mout≈[97m35k[0m[90m · [0min+cache [97m7.00M[0m[90m · [0mtools [97m52[0m[31m (2 err)[0m[90m · [0mapi [97m50[0m[90m · [0msession [97me[0m…[0m[K
+[1magents[0m [36m▒▒▒▒▒▒[0m[90m░░░░░░░░░░░░░[0m [32m0 done[0m[90m · [0m[36m1 running[0m[90m / 1 seen[0m[90m (~3 in script)[0m[0m[K
+ [36m▶[0m [1mBuild [0m [36m▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[90m[0m 0/1[36m · 1 running[0m[0m[K
+   [90mReview[0m [90m░░░░░░░░░░░░░[0m [90mnot started[0m[0m[K
+   [90mFix   [0m [90m░░░░░░░░░░░░░[0m [90mnot started[0m[0m[K
+[90m  agent            model      time tool progress   current activity           [0m[0m[K
+[48;5;236m[36m⠹[0m[48;5;236m [93mbuild:ultrawatch[0m[48;5;236m [34mopus-5.5[0m[48;5;236m 19m33s   52 [36m██████[0m[48;5;236m[90m[0m[48;5;236m 3/3 Bash: Run TUI in a pty at …[0m[0m[K
+[90m── feed ──────────────────────────────────────────────────────────────────────[0m[0m[K
+[90m18:55:41[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Show the first user messages of eval a[0m…[0m[K
+[90m18:55:56[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Accumulate multi-message prompts and r[0m…[0m[K
+[90m18:56:06[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Inspect findings.md heading formats[0m[K
+[90m18:56:17[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Count findings sections and fix design[0m…[0m[K
+[90m18:56:25[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Compare computed totals with harness j[0m…[0m[K
+[90m18:56:37[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Compare per-agent tokens with harness [0m…[0m[K
+[90m18:56:51[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Match harness token formula and mark e[0m…[0m[K
+[90m18:57:02[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Exclude earlier-launch slots from coun[0m…[0m[K
+[90m18:57:11[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Recheck totals against harness json[0m[K
+[90m18:57:21[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Show last assistant usage rows to deri[0m…[0m[K
+[90m18:57:29[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Recheck token totals with context-only[0m…[0m[K
+[90m18:57:34[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m [97m“Totals now match the harness within 0.2% (t[0m…[0m[K
+[90m18:57:35[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Render snapshot frames for failed and [0m…[0m[K
+[90m18:57:57[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Adjust narrow layout and render live r[0m…[0m[K
+[90m18:58:12[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Find agent( occurrences in ultrawatch [0m…[0m[K
+[90m18:58:31[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Add code-mask based agent estimate and[0m…[0m[K
+[90m18:58:44[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Estimate output tokens from content wh[0m…[0m[K
+[90m18:59:07[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Update PROGRESS.md and add VT emulator[0m…[0m[K
+[90m18:59:14[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Run TUI in a pty at 80x30 and reconstr[0m…[0m[K
+[90mq · jk · ⏎ · p · a · ?[0m                                                 [90m18:59:18[0m[0m[K[J[?2026l[?2026h[H[1m[35m◆ ultrawatch[0m[0m  [90mwf_997c3870-43a[0m  [1;36m● running[0m  [97m19m33s[0m[90m since 18:39[0m   [90mdefault [0mopus-5.5[0m[K
+[90mBuild a live terminal tracker for workflow (ultracode) runs: progress bars, pe…[0m[0m[K
+[90mtokens [97m220k[0m[90m · [0mout≈[97m35k[0m[90m · [0min+cache [97m7.00M[0m[90m · [0mtools [97m52[0m[31m (2 err)[0m[90m · [0mapi [97m50[0m[90m · [0msession [97me[0m…[0m[K
+[1magents[0m [36m▒▒▒▒▒▒[0m[90m░░░░░░░░░░░░░[0m [32m0 done[0m[90m · [0m[36m1 running[0m[90m / 1 seen[0m[90m (~3 in script)[0m[0m[K
+ [36m▶[0m [1mBuild [0m [36m▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[90m[0m 0/1[36m · 1 running[0m[0m[K
+   [90mReview[0m [90m░░░░░░░░░░░░░[0m [90mnot started[0m[0m[K
+   [90mFix   [0m [90m░░░░░░░░░░░░░[0m [90mnot started[0m[0m[K
+[90m  agent            model      time tool progress   current activity           [0m[0m[K
+[48;5;236m[36m⠴[0m[48;5;236m [93mbuild:ultrawatch[0m[48;5;236m [34mopus-5.5[0m[48;5;236m 19m33s   52 [36m██████[0m[48;5;236m[90m[0m[48;5;236m 3/3 Bash: Run TUI in a pty at …[0m[0m[K
+[90m── feed ──────────────────────────────────────────────────────────────────────[0m[0m[K
+[90m18:55:41[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Show the first user messages of eval a[0m…[0m[K
+[90m18:55:56[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Accumulate multi-message prompts and r[0m…[0m[K
+[90m18:56:06[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Inspect findings.md heading formats[0m[K
+[90m18:56:17[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Count findings sections and fix design[0m…[0m[K
+[90m18:56:25[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Compare computed totals with harness j[0m…[0m[K
+[90m18:56:37[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Compare per-agent tokens with harness [0m…[0m[K
+[90m18:56:51[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Match harness token formula and mark e[0m…[0m[K
+[90m18:57:02[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Exclude earlier-launch slots from coun[0m…[0m[K
+[90m18:57:11[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Recheck totals against harness json[0m[K
+[90m18:57:21[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Show last assistant usage rows to deri[0m…[0m[K
+[90m18:57:29[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Recheck token totals with context-only[0m…[0m[K
+[90m18:57:34[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m [97m“Totals now match the harness within 0.2% (t[0m…[0m[K
+[90m18:57:35[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Render snapshot frames for failed and [0m…[0m[K
+[90m18:57:57[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Adjust narrow layout and render live r[0m…[0m[K
+[90m18:58:12[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Find agent( occurrences in ultrawatch [0m…[0m[K
+[90m18:58:31[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Add code-mask based agent estimate and[0m…[0m[K
+[90m18:58:44[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Estimate output tokens from content wh[0m…[0m[K
+[90m18:59:07[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Update PROGRESS.md and add VT emulator[0m…[0m[K
+[90m18:59:14[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Run TUI in a pty at 80x30 and reconstr[0m…[0m[K
+[90mq · jk · ⏎ · p · a · ?[0m                                                 [90m18:59:18[0m[0m[K[J[?2026l[?2026h[H[1m[35m◆ ultrawatch[0m[0m  [90mwf_997c3870-43a[0m  [1;36m● running[0m  [97m19m33s[0m[90m since 18:39[0m   [90mdefault [0mopus-5.5[0m[K
+[90mBuild a live terminal tracker for workflow (ultracode) runs: progress bars, pe…[0m[0m[K
+[90mtokens [97m220k[0m[90m · [0mout≈[97m35k[0m[90m · [0min+cache [97m7.00M[0m[90m · [0mtools [97m52[0m[31m (2 err)[0m[90m · [0mapi [97m50[0m[90m · [0msession [97me[0m…[0m[K
+[1magents[0m [36m▒▒▒▒▒▒[0m[90m░░░░░░░░░░░░░[0m [32m0 done[0m[90m · [0m[36m1 running[0m[90m / 1 seen[0m[90m (~3 in script)[0m[0m[K
+ [36m▶[0m [1mBuild [0m [36m▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[90m[0m 0/1[36m · 1 running[0m[0m[K
+   [90mReview[0m [90m░░░░░░░░░░░░░[0m [90mnot started[0m[0m[K
+   [90mFix   [0m [90m░░░░░░░░░░░░░[0m [90mnot started[0m[0m[K
+[90m  agent            model      time tool progress   current activity           [0m[0m[K
+[48;5;236m[36m⠦[0m[48;5;236m [93mbuild:ultrawatch[0m[48;5;236m [34mopus-5.5[0m[48;5;236m 19m33s   52 [36m██████[0m[48;5;236m[90m[0m[48;5;236m 3/3 Bash: Run TUI in a pty at …[0m[0m[K
+[90m── feed ──────────────────────────────────────────────────────────────────────[0m[0m[K
+[90m18:55:41[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Show the first user messages of eval a[0m…[0m[K
+[90m18:55:56[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Accumulate multi-message prompts and r[0m…[0m[K
+[90m18:56:06[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Inspect findings.md heading formats[0m[K
+[90m18:56:17[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Count findings sections and fix design[0m…[0m[K
+[90m18:56:25[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Compare computed totals with harness j[0m…[0m[K
+[90m18:56:37[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Compare per-agent tokens with harness [0m…[0m[K
+[90m18:56:51[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Match harness token formula and mark e[0m…[0m[K
+[90m18:57:02[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Exclude earlier-launch slots from coun[0m…[0m[K
+[90m18:57:11[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Recheck totals against harness json[0m[K
+[90m18:57:21[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Show last assistant usage rows to deri[0m…[0m[K
+[90m18:57:29[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Recheck token totals with context-only[0m…[0m[K
+[90m18:57:34[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m [97m“Totals now match the harness within 0.2% (t[0m…[0m[K
+[90m18:57:35[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Render snapshot frames for failed and [0m…[0m[K
+[90m18:57:57[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Adjust narrow layout and render live r[0m…[0m[K
+[90m18:58:12[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Find agent( occurrences in ultrawatch [0m…[0m[K
+[90m18:58:31[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Add code-mask based agent estimate and[0m…[0m[K
+[90m18:58:44[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Estimate output tokens from content wh[0m…[0m[K
+[90m18:59:07[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Update PROGRESS.md and add VT emulator[0m…[0m[K
+[90m18:59:14[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Run TUI in a pty at 80x30 and reconstr[0m…[0m[K
+[90mq · jk · ⏎ · p · a · ?[0m                                                 [90m18:59:18[0m[0m[K[J[?2026l[?2026h[H[1m[35m◆ ultrawatch[0m[0m  [90mwf_997c3870-43a[0m  [1;36m● running[0m  [97m19m33s[0m[90m since 18:39[0m   [90mdefault [0mopus-5.5[0m[K
+[90mBuild a live terminal tracker for workflow (ultracode) runs: progress bars, pe…[0m[0m[K
+[90mtokens [97m220k[0m[90m · [0mout≈[97m35k[0m[90m · [0min+cache [97m7.00M[0m[90m · [0mtools [97m52[0m[31m (2 err)[0m[90m · [0mapi [97m50[0m[90m · [0msession [97me[0m…[0m[K
+[1magents[0m [36m▒▒▒▒▒▒[0m[90m░░░░░░░░░░░░░[0m [32m0 done[0m[90m · [0m[36m1 running[0m[90m / 1 seen[0m[90m (~3 in script)[0m[0m[K
+ [36m▶[0m [1mBuild [0m [36m▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[90m[0m 0/1[36m · 1 running[0m[0m[K
+   [90mReview[0m [90m░░░░░░░░░░░░░[0m [90mnot started[0m[0m[K
+   [90mFix   [0m [90m░░░░░░░░░░░░░[0m [90mnot started[0m[0m[K
+[90m  agent            model      time tool progress   current activity           [0m[0m[K
+[48;5;236m[36m⠧[0m[48;5;236m [93mbuild:ultrawatch[0m[48;5;236m [34mopus-5.5[0m[48;5;236m 19m33s   52 [36m██████[0m[48;5;236m[90m[0m[48;5;236m 3/3 Bash: Run TUI in a pty at …[0m[0m[K
+[90m── feed ──────────────────────────────────────────────────────────────────────[0m[0m[K
+[90m18:55:41[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Show the first user messages of eval a[0m…[0m[K
+[90m18:55:56[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Accumulate multi-message prompts and r[0m…[0m[K
+[90m18:56:06[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Inspect findings.md heading formats[0m[K
+[90m18:56:17[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Count findings sections and fix design[0m…[0m[K
+[90m18:56:25[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Compare computed totals with harness j[0m…[0m[K
+[90m18:56:37[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Compare per-agent tokens with harness [0m…[0m[K
+[90m18:56:51[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Match harness token formula and mark e[0m…[0m[K
+[90m18:57:02[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Exclude earlier-launch slots from coun[0m…[0m[K
+[90m18:57:11[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Recheck totals against harness json[0m[K
+[90m18:57:21[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Show last assistant usage rows to deri[0m…[0m[K
+[90m18:57:29[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Recheck token totals with context-only[0m…[0m[K
+[90m18:57:34[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m [97m“Totals now match the harness within 0.2% (t[0m…[0m[K
+[90m18:57:35[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Render snapshot frames for failed and [0m…[0m[K
+[90m18:57:57[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Adjust narrow layout and render live r[0m…[0m[K
+[90m18:58:12[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Find agent( occurrences in ultrawatch [0m…[0m[K
+[90m18:58:31[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Add code-mask based agent estimate and[0m…[0m[K
+[90m18:58:44[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Estimate output tokens from content wh[0m…[0m[K
+[90m18:59:07[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Update PROGRESS.md and add VT emulator[0m…[0m[K
+[90m18:59:14[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Run TUI in a pty at 80x30 and reconstr[0m…[0m[K
+[90mq · jk · ⏎ · p · a · ?[0m                                                 [90m18:59:18[0m[0m[K[J[?2026l[?2026h[H[1m[35m◆ ultrawatch[0m[0m  [90mwf_997c3870-43a[0m  [1;36m● running[0m  [97m19m33s[0m[90m since 18:39[0m   [90mdefault [0mopus-5.5[0m[K
+[90mBuild a live terminal tracker for workflow (ultracode) runs: progress bars, pe…[0m[0m[K
+[90mtokens [97m220k[0m[90m · [0mout≈[97m35k[0m[90m · [0min+cache [97m7.00M[0m[90m · [0mtools [97m52[0m[31m (2 err)[0m[90m · [0mapi [97m50[0m[90m · [0msession [97me[0m…[0m[K
+[1magents[0m [36m▒▒▒▒▒▒[0m[90m░░░░░░░░░░░░░[0m [32m0 done[0m[90m · [0m[36m1 running[0m[90m / 1 seen[0m[90m (~3 in script)[0m[0m[K
+ [36m▶[0m [1mBuild [0m [36m▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[90m[0m 0/1[36m · 1 running[0m[0m[K
+   [90mReview[0m [90m░░░░░░░░░░░░░[0m [90mnot started[0m[0m[K
+   [90mFix   [0m [90m░░░░░░░░░░░░░[0m [90mnot started[0m[0m[K
+[90m  agent            model      time tool progress   current activity           [0m[0m[K
+[48;5;236m[36m⠋[0m[48;5;236m [93mbuild:ultrawatch[0m[48;5;236m [34mopus-5.5[0m[48;5;236m 19m33s   52 [36m██████[0m[48;5;236m[90m[0m[48;5;236m 3/3 Bash: Run TUI in a pty at …[0m[0m[K
+[90m── feed ──────────────────────────────────────────────────────────────────────[0m[0m[K
+[90m18:55:41[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Show the first user messages of eval a[0m…[0m[K
+[90m18:55:56[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Accumulate multi-message prompts and r[0m…[0m[K
+[90m18:56:06[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Inspect findings.md heading formats[0m[K
+[90m18:56:17[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Count findings sections and fix design[0m…[0m[K
+[90m18:56:25[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Compare computed totals with harness j[0m…[0m[K
+[90m18:56:37[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Compare per-agent tokens with harness [0m…[0m[K
+[90m18:56:51[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Match harness token formula and mark e[0m…[0m[K
+[90m18:57:02[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Exclude earlier-launch slots from coun[0m…[0m[K
+[90m18:57:11[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Recheck totals against harness json[0m[K
+[90m18:57:21[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Show last assistant usage rows to deri[0m…[0m[K
+[90m18:57:29[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Recheck token totals with context-only[0m…[0m[K
+[90m18:57:34[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m [97m“Totals now match the harness within 0.2% (t[0m…[0m[K
+[90m18:57:35[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Render snapshot frames for failed and [0m…[0m[K
+[90m18:57:57[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Adjust narrow layout and render live r[0m…[0m[K
+[90m18:58:12[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Find agent( occurrences in ultrawatch [0m…[0m[K
+[90m18:58:31[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Add code-mask based agent estimate and[0m…[0m[K
+[90m18:58:44[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Estimate output tokens from content wh[0m…[0m[K
+[90m18:59:07[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Update PROGRESS.md and add VT emulator[0m…[0m[K
+[90m18:59:14[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Run TUI in a pty at 80x30 and reconstr[0m…[0m[K
+[90mq · jk · ⏎ · p · a · ?[0m                                                 [90m18:59:19[0m[0m[K[J[?2026l[?2026h[H[1m[35m◆ ultrawatch[0m[0m  [90mwf_997c3870-43a[0m  [1;36m● running[0m  [97m19m34s[0m[90m since 18:39[0m   [90mdefault [0mopus-5.5[0m[K
+[90mBuild a live terminal tracker for workflow (ultracode) runs: progress bars, pe…[0m[0m[K
+[90mtokens [97m220k[0m[90m · [0mout≈[97m35k[0m[90m · [0min+cache [97m7.00M[0m[90m · [0mtools [97m52[0m[31m (2 err)[0m[90m · [0mapi [97m50[0m[90m · [0msession [97me[0m…[0m[K
+[1magents[0m [36m▒▒▒▒▒▒[0m[90m░░░░░░░░░░░░░[0m [32m0 done[0m[90m · [0m[36m1 running[0m[90m / 1 seen[0m[90m (~3 in script)[0m[0m[K
+ [36m▶[0m [1mBuild [0m [36m▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[90m[0m 0/1[36m · 1 running[0m[0m[K
+   [90mReview[0m [90m░░░░░░░░░░░░░[0m [90mnot started[0m[0m[K
+   [90mFix   [0m [90m░░░░░░░░░░░░░[0m [90mnot started[0m[0m[K
+[90m  agent            model      time tool progress   current activity           [0m[0m[K
+[48;5;236m[36m⠹[0m[48;5;236m [93mbuild:ultrawatch[0m[48;5;236m [34mopus-5.5[0m[48;5;236m 19m34s   52 [36m██████[0m[48;5;236m[90m[0m[48;5;236m 3/3 Bash: Run TUI in a pty at …[0m[0m[K
+[90m── feed ──────────────────────────────────────────────────────────────────────[0m[0m[K
+[90m18:55:41[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Show the first user messages of eval a[0m…[0m[K
+[90m18:55:56[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Accumulate multi-message prompts and r[0m…[0m[K
+[90m18:56:06[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Inspect findings.md heading formats[0m[K
+[90m18:56:17[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Count findings sections and fix design[0m…[0m[K
+[90m18:56:25[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Compare computed totals with harness j[0m…[0m[K
+[90m18:56:37[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Compare per-agent tokens with harness [0m…[0m[K
+[90m18:56:51[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Match harness token formula and mark e[0m…[0m[K
+[90m18:57:02[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Exclude earlier-launch slots from coun[0m…[0m[K
+[90m18:57:11[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Recheck totals against harness json[0m[K
+[90m18:57:21[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Show last assistant usage rows to deri[0m…[0m[K
+[90m18:57:29[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Recheck token totals with context-only[0m…[0m[K
+[90m18:57:34[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m [97m“Totals now match the harness within 0.2% (t[0m…[0m[K
+[90m18:57:35[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Render snapshot frames for failed and [0m…[0m[K
+[90m18:57:57[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Adjust narrow layout and render live r[0m…[0m[K
+[90m18:58:12[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Find agent( occurrences in ultrawatch [0m…[0m[K
+[90m18:58:31[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Add code-mask based agent estimate and[0m…[0m[K
+[90m18:58:44[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Estimate output tokens from content wh[0m…[0m[K
+[90m18:59:07[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Update PROGRESS.md and add VT emulator[0m…[0m[K
+[90m18:59:14[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Run TUI in a pty at 80x30 and reconstr[0m…[0m[K
+[90mq · jk · ⏎ · p · a · ?[0m                                                 [90m18:59:19[0m[0m[K[J[?2026l[?2026h[H[1m[35m◆ ultrawatch[0m[0m  [90mwf_997c3870-43a[0m  [1;36m● running[0m  [97m19m34s[0m[90m since 18:39[0m   [90mdefault [0mopus-5.5[0m[K
+[90mBuild a live terminal tracker for workflow (ultracode) runs: progress bars, pe…[0m[0m[K
+[90mtokens [97m220k[0m[90m · [0mout≈[97m35k[0m[90m · [0min+cache [97m7.00M[0m[90m · [0mtools [97m52[0m[31m (2 err)[0m[90m · [0mapi [97m50[0m[90m · [0msession [97me[0m…[0m[K
+[1magents[0m [36m▒▒▒▒▒▒[0m[90m░░░░░░░░░░░░░[0m [32m0 done[0m[90m · [0m[36m1 running[0m[90m / 1 seen[0m[90m (~3 in script)[0m[0m[K
+ [36m▶[0m [1mBuild [0m [36m▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[90m[0m 0/1[36m · 1 running[0m[0m[K
+   [90mReview[0m [90m░░░░░░░░░░░░░[0m [90mnot started[0m[0m[K
+   [90mFix   [0m [90m░░░░░░░░░░░░░[0m [90mnot started[0m[0m[K
+[90m  agent            model      time tool progress   current activity           [0m[0m[K
+[48;5;236m[36m⠴[0m[48;5;236m [93mbuild:ultrawatch[0m[48;5;236m [34mopus-5.5[0m[48;5;236m 19m34s   52 [36m██████[0m[48;5;236m[90m[0m[48;5;236m 3/3 Bash: Run TUI in a pty at …[0m[0m[K
+[90m── feed ──────────────────────────────────────────────────────────────────────[0m[0m[K
+[90m18:55:41[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Show the first user messages of eval a[0m…[0m[K
+[90m18:55:56[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Accumulate multi-message prompts and r[0m…[0m[K
+[90m18:56:06[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Inspect findings.md heading formats[0m[K
+[90m18:56:17[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Count findings sections and fix design[0m…[0m[K
+[90m18:56:25[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Compare computed totals with harness j[0m…[0m[K
+[90m18:56:37[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Compare per-agent tokens with harness [0m…[0m[K
+[90m18:56:51[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Match harness token formula and mark e[0m…[0m[K
+[90m18:57:02[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Exclude earlier-launch slots from coun[0m…[0m[K
+[90m18:57:11[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Recheck totals against harness json[0m[K
+[90m18:57:21[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Show last assistant usage rows to deri[0m…[0m[K
+[90m18:57:29[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Recheck token totals with context-only[0m…[0m[K
+[90m18:57:34[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m [97m“Totals now match the harness within 0.2% (t[0m…[0m[K
+[90m18:57:35[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Render snapshot frames for failed and [0m…[0m[K
+[90m18:57:57[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Adjust narrow layout and render live r[0m…[0m[K
+[90m18:58:12[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Find agent( occurrences in ultrawatch [0m…[0m[K
+[90m18:58:31[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Add code-mask based agent estimate and[0m…[0m[K
+[90m18:58:44[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Estimate output tokens from content wh[0m…[0m[K
+[90m18:59:07[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Update PROGRESS.md and add VT emulator[0m…[0m[K
+[90m18:59:14[0m [93mbuild:ultrawa…[0m [34mopus-5.5 [0m Bash: Run TUI in a pty at 80x30 and reconstr[0m…[0m[K
+[90mq · jk · ⏎ · p · a · ?[0m                                                 [90m18:59:19[0m[0m[K[J[?2026l[?2026l[0m[?25h[?1049l

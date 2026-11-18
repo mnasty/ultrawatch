@@ -1,0 +1,24 @@
+◆ demo-running  wf_run00001-aaa  ◌ idle 8h  8h58m since Oct 27 18:05
+A running demo workflow with three agents
+tokens 111k · out≈274 · in+cache 193k · tools 6 (1 err) · api 6 · session aaaa…
+agents █████▒▒▒▒▒▒▒▒▒░░░░░ 1 done · 2 running / 3 seen (~4 in script)
+   Design ███████▒▒▒▒▒▒ 1/2 · 1 running  two designers in parallel
+ ▶ Build  ▒▒▒▒▒▒▒▒▒▒▒▒▒ 0/1 · 1 running  one builder
+  agent      model        time tool progress    ago current activity
+✓ design:one opus-5.5    5m01s    2 ██████ 3/3   8h → design one is finished
+◌ design:two opus-5.5    8h55m    3 ███░░░ 2/4   8h idle 8h · WebFetch develo…
+◌ build:main sonnet-4.5  8h45m    1 ░░░░░░░░░░   8h idle 8h · Bash: Build eve…
+── feed ──────────────────────────────────────────────────────────────────────
+18:06:00 design:one opus-5.5   Read app.tsx
+18:08:00 design:two opus-5.5   ▶ started · Design
+18:09:00 design:two opus-5.5   Bash: Run the unit tests
+18:09:30 design:two opus-5.5   ✗ Bash: Exit code 1 FAIL sky.test.js expected 3…
+18:10:00 design:one opus-5.5   “The design is done; returning.”
+18:10:00 design:one opus-5.5   returning result
+18:10:00 design:two opus-5.5   “One test fails; fixing the sky colour. Second …
+18:10:00 design:two opus-5.5   Edit sky.js
+18:10:01 design:one opus-5.5   ✓ finished: design one is finished
+18:18:00 build:main sonnet-4.5 ▶ started · Build
+18:25:00 build:main sonnet-4.5 Bash: Build everything
+18:29:00 design:two opus-5.5   WebFetch developers.cloudflare.com/workers/runt…
+q · jk · ⏎ · p · a · ?          1 other run(s) running · a: show all · 03:03:16

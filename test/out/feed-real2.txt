@@ -1,0 +1,13 @@
+# ultrawatch wf_997c3870-43a · running · 0/1 done · /Users/mick/.claude/projects/-Users-mick-dev-web-memi/e4432b45-0260-4380-a5d7-24825da27615/subagents/workflows/wf_997c3870-43a
+# (workflow script not found) wf_dee01e3a-097 · running · 0/1 done · /Users/mick/.claude/projects/-Users-mick-dev-web-memi/e4432b45-0260-4380-a5d7-24825da27615/subagents/workflows/wf_dee01e3a-097
+19:08:31 build:ptest        opus-5.5   “Now the test fixtures and test suite.”
+19:08:50 build:ptest        opus-5.5   Bash: Write test fixtures
+19:10:05 build:ultrawatch   opus-5.5   “Meanwhile, the TUI against the real live runs in a pty at 80 and 160 columns.”
+19:10:06 build:ultrawatch   opus-5.5   Bash: Capture the real TUI in --all mode at 80x30
+19:10:11 build:ptest        opus-5.5   Write ptest.test.mjs (12.9KB)
+19:10:17 build:ultrawatch   opus-5.5   Bash: Capture real TUI at 160x45 with focus view
+19:10:22 build:ultrawatch   opus-5.5   ✗ Bash: Exit code 1 ◆ (workflow script not found) wf_dee01e3a-097 ● running 21m21s since 18:48 default opus-5.5 tokens 170k · out≈28k · in+cache 3.83M · tools 38 (1 err) · api 37 · session e4432b45 · active 6s ago agents ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ 0 done · 1 running / 1 agents seen ▶ Build ▒▒…
+19:10:27 build:ptest        opus-5.5   Bash: Run the test suite
+19:10:28 build:ultrawatch   opus-5.5   Bash: Show the focus frame from the real capture
+19:10:31 build:ptest        opus-5.5   Bash: Run the test suite with glob
+19:10:35 build:ultrawatch   opus-5.5   Bash: Read the 45 s live feed capture

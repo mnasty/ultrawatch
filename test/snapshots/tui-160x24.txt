@@ -1,0 +1,24 @@
+◆ demo-running  wf_run00001-aaa  ● running  25m00s since 18:05                                                                                  default opus-5.5
+A running demo workflow with three agents
+tokens 111k · out≈274 · in+cache 193k · tools 6 (1 err) · api 6 · session aaaaaaaa · active 1m ago
+agents ██████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░░░░░░░░░ 1 done · 2 running / 3 agents seen (~4 in script)
+   Design ████████████▒▒▒▒▒▒▒▒▒▒▒▒ 1/2 · 1 running  two designers in parallel
+ ▶ Build  ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ 0/1 · 1 running  one builder
+  agent      phase  model        time   out   ctx tool progress          ago current activity                                                                  
+✓ design:one Design opus-5.5    5m01s   150   41k    2 ████████████ 3/3  19m → design one is finished                                                          
+⠋▸design:two Design opus-5.5   22m00s   102   52k    3 ██████░░░░░░ 2/4   1m WebFetch developers.cloudflare.com/workers/runtime-apis/cache/ ⋯                  
+! build:main Build  sonnet-4.5 12m00s    22   18k    1 ░░░░░░░░░░░░░░░░   5m stalled? 5m in Bash: Build everything ⋯                                           
+── feed ───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+18:06:00 design:one opus-5.5   Read app.tsx
+18:08:00 design:two opus-5.5   ▶ started · Design
+18:09:00 design:two opus-5.5   Bash: Run the unit tests
+18:09:30 design:two opus-5.5   ✗ Bash: Exit code 1 FAIL sky.test.js expected 3 got 4
+18:10:00 design:one opus-5.5   “The design is done; returning.”
+18:10:00 design:one opus-5.5   returning result
+18:10:00 design:two opus-5.5   “One test fails; fixing the sky colour. Second line of text.”
+18:10:00 design:two opus-5.5   Edit sky.js
+18:10:01 design:one opus-5.5   ✓ finished: design one is finished
+18:18:00 build:main sonnet-4.5 ▶ started · Build
+18:25:00 build:main sonnet-4.5 Bash: Build everything
+18:29:00 design:two opus-5.5   WebFetch developers.cloudflare.com/workers/runtime-apis/cache/
+q quit · ↑↓/jk select · ⏎/f focus · p pause · r rescan · a all runs · ? help                                                                            18:30:00

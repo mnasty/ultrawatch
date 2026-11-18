@@ -1,0 +1,430 @@
+[?1049h[?25l[H[2J[?2026h[H[1m[35m◆ dusk-v4a-design[0m[0m  [90mwf_6c74b7a6-02e[0m  [1;32m✓ completed[0m  [97m2h43m[0m[90m since 11:45[0m                                     [90mdefault [0mopus-5.5[0m[K
+[90mDusk v4 part 1 of 3: logo exploration, sun mascot, sky/weather engine, energy-screen build; one agent at a time, every…[0m[0m[K
+[90mtokens [97m935k[0m[90m · [0mout≈[97m140k[0m[90m · [0min+cache [97m49.9M[0m[90m · [0mtools [97m334[0m[31m (19 err)[0m[90m · [0mapi [97m317[0m[90m · [0msession [97me4432b45[0m[90m · [0mactive [97m4h[0m ago[0m[0m[K
+[1magents[0m [32m████████████████████████████████████████[0m[90m[0m [32m4 done[0m[90m / 4 agents seen[0m[0m[K
+ [32m✓[0m Design [32m███████████████████[0m[90m[0m 3/3[90m  logo -> sun mascot -> sky/weather engine, one at a time[0m[0m[K
+ [32m✓[0m Build  [32m███████████████████[0m[90m[0m 1/1[90m  energy screen (W4–W6), item-level checkpoints[0m[0m[K
+[90m  agent                phase  model      time   out   ctx tool progress       ago current activity                    [0m[0m[K
+[48;5;236m[32m✓[0m[48;5;236m [32mlogo:explore[0m[48;5;236m         [90mDesign[0m[48;5;236m [34mopus-5.5[0m[48;5;236m 13m44s   28k  160k   57 [32m█████████[0m[48;5;236m[90m[0m[48;5;236m 5/5   [90m7h[0m[48;5;236m [32m→ [0m[48;5;236m[90mW11 is done. I recommend "i. the [0m[48;5;236m…[0m[0m[K
+[32m✓[0m [33msun:mascot-design[0m    [90mDesign[0m [34mopus-5.5[0m 19m58s   31k  235k   65 [32m█████████[0m[90m[0m 4/4   [90m6h[0m [32m→ [0m[90mThe W12 sun mascot is finished an[0m…[0m[K
+[32m✓[0m [96msky:engine+weather-[0m… [90mDesign[0m [34mopus-5.5[0m 25m30s   45k  256k  108 [32m█████████[0m[90m[0m 5/5   [90m6h[0m [32m→ [0m[90mAll four deliverables are finishe[0m…[0m[K
+[32m✓[0m [95mbuild:energy[0m         [90mBuild[0m  [34mopus-5.5[0m  1h44m   36k  284k  104 [32m█████████[0m[90m[0m 6/6   [90m4h[0m [32m→ [0m[90mStage b1-energy (W4, W5, W6, plus[0m…[0m[K
+[90m── feed ──────────────────────────────────────────────────────────────────────────────────────────────────────────────[0m[0m[K
+[90m14:01:08[0m [95mbuild:energy  [0m [34mopus-5.5[0m Bash: Tune desktop column widths; geo waits for fonts[0m[K
+[90m14:03:53[0m [95mbuild:energy  [0m [34mopus-5.5[0m Bash: Full W5/W7 audit with real fonts; compose desktop sheet[0m[K
+[90m14:14:07[0m [95mbuild:energy  [0m [34mopus-5.5[0m Bash: Compute caption contrast over worst-case skies[0m[K
+[90m14:14:13[0m [95mbuild:energy  [0m [34mopus-5.5[0m Bash: Wait for the audit run to finish[0m[K
+[90m14:14:13[0m [95mbuild:energy  [0m [34mopus-5.5[0m [31m✗ Bash: <tool_use_error>Blocked: sleep 240 followed by: cat /private/tmp/claude-501/-[0m…[0m[K
+[90m14:14:15[0m [95mbuild:energy  [0m [34mopus-5.5[0m ToolSearch select:Monitor[0m[K
+[90m14:14:25[0m [95mbuild:energy  [0m [34mopus-5.5[0m Bash: Wait for audit run to write its final sheet (bg)[0m[K
+[90m14:14:30[0m [95mbuild:energy  [0m [34mopus-5.5[0m Read bp93ivjb7.output[0m[K
+[90m14:14:32[0m [95mbuild:energy  [0m [34mopus-5.5[0m Bash: Read the audit results[0m[K
+[90m14:14:36[0m [95mbuild:energy  [0m [34mopus-5.5[0m Read b1-w57-hold-desk.png[0m[K
+[90m14:14:44[0m [95mbuild:energy  [0m [34mopus-5.5[0m Bash: Avoid orphaned question words; recheck[0m[K
+[90m14:15:18[0m [95mbuild:energy  [0m [34mopus-5.5[0m Bash: Checkpoint W5 and W7 and mirror[0m[K
+[90m14:15:27[0m [95mbuild:energy  [0m [34mopus-5.5[0m Bash: Inspect the v3 smoke harness[0m[K
+[90m14:15:43[0m [95mbuild:energy  [0m [34mopus-5.5[0m Bash: Static regression and diff-scope scan[0m[K
+[90m14:15:50[0m [95mbuild:energy  [0m [34mopus-5.5[0m Bash: Look for existing V9 regression scripts[0m[K
+[90m14:15:59[0m [95mbuild:energy  [0m [34mopus-5.5[0m Bash: Inspect v3 checks harness[0m[K
+[90m14:16:07[0m [95mbuild:energy  [0m [34mopus-5.5[0m Bash: Find the draw step markup and V9 notes[0m[K
+[90m14:16:25[0m [95mbuild:energy  [0m [34mopus-5.5[0m Bash: Run the final regression suite in background (bg)[0m[K
+[90m14:16:35[0m [95mbuild:energy  [0m [34mopus-5.5[0m Monitor final regression log progress[0m[K
+[90m14:16:40[0m [95mbuild:energy  [0m [34mopus-5.5[0m Bash: Wait for regression to finish and print the log[0m[K
+[90m14:26:34[0m [95mbuild:energy  [0m [34mopus-5.5[0m Read b1-w6act-peakmid.png[0m[K
+[90m14:26:47[0m [95mbuild:energy  [0m [34mopus-5.5[0m Bash: Finalize stage checkpoint file[0m[K
+[90m14:26:49[0m [95mbuild:energy  [0m [34mopus-5.5[0m [97m“Now the report.json and the archive copies.”[0m[0m[K
+[90m14:27:38[0m [95mbuild:energy  [0m [34mopus-5.5[0m Bash: Write report.json and archive final artifacts[0m[K
+[90m14:27:44[0m [95mbuild:energy  [0m [34mopus-5.5[0m Bash: Check report size[0m[K
+[90m14:28:25[0m [95mbuild:energy  [0m [34mopus-5.5[0m returning result[0m[K
+[90m14:28:25[0m [95mbuild:energy  [0m [34mopus-5.5[0m [1;32m✓ [0m[32mfinished: Stage b1-energy (W4, W5, W6, plus the energy-screen part of W7) is done a[0m…[0m[K
+[90mq quit · ↑↓/jk select · ⏎/f focus · p pause · r rescan · a all runs · ? help[0m [33m2 other run(s) running · a: show all[0m[90m · [0m[90m19[0m…[0m[K[J[?2026l[?2026h[H[1m2 runs[0m[90m · 2 running[0m[0m[K
+[1m[35m◆ ultrawatch[0m[0m  [90mwf_997c3870-43a[0m  [1;36m● running[0m  [97m33m43s[0m[90m since 18:39[0m                                           [90mdefault [0mopus-5.5[0m[K
+[1magents[0m [36m▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[90m░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m [32m0 done[0m[90m · [0m[36m1 running[0m[90m / 1 agents seen[0m[90m (~3 in script)[0m[0m[K
+[36m▶[0m[1mBuild[0m [90m0/1[0m[90m  [0m[90m·[0m[90mReview[0m [90m–[0m[90m  [0m[90m·[0m[90mFix[0m [90m–[0m[0m[K
+[90m  agent            phase model      time   out   ctx tool progress       ago current activity                         [0m[0m[K
+[48;5;236m[36m⠼[0m[48;5;236m [93mbuild:ultrawatch[0m[48;5;236m [90mBuild[0m[48;5;236m [34mopus-5.5[0m[48;5;236m 33m43s   56k  300k   86 [36m█████████[0m[48;5;236m[90m[0m[48;5;236m 4/4   [90m2s[0m[48;5;236m Bash: Capture the a-key toggle between o…[0m[0m[K
+[0m[K
+[1m[35m◆ (workflow script not found)[0m[0m  [90mwf_dee01e3a-097[0m  [1;36m● running[0m  [97m24m30s[0m[90m since 18:48[0m                          [90mdefault [0mopus-5.5[0m[K
+[1magents[0m [36m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[90m[0m [32m0 done[0m[90m · [0m[36m1 running[0m[90m / 1 agents seen[0m[0m[K
+[36m▶[0m[1mBuild[0m [90m0/1[0m[0m[K
+[90m  agent            phase model      time   out   ctx tool progress       ago current activity                         [0m[0m[K
+[36m⠼[0m [34mbuild:ptest[0m      [90mBuild[0m [34mopus-5.5[0m 24m30s   29k  186k   45 [36m░░░░░░░░░░░▒▓[0m   [90m6s[0m [3mthinking…[0m                                [0m[K
+[90m── feed ──────────────────────────────────────────────────────────────────────────────────────────────────────────────[0m[0m[K
+[90m19:08:31[0m [34mbuild:ptest   [0m [34mopus-5.5[0m [97m“Now the test fixtures and test suite.”[0m[0m[K
+[90m19:08:36[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Give background TUI the tty and rerun resize test[0m[K
+[90m19:08:50[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Write test fixtures[0m[K
+[90m19:09:02[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Record progress and list real runs[0m[K
+[90m19:09:29[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Follow the live runs in feed mode for 20 seconds[0m[K
+[90m19:09:34[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Follow live runs in feed mode for 20 seconds[0m[K
+[90m19:10:01[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Start a 45 s background feed capture of live runs[0m[K
+[90m19:10:05[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m [97m“Meanwhile, the TUI against the real live runs in a pty at 80 and 160 columns.”[0m[0m[K
+[90m19:10:06[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Capture the real TUI in --all mode at 80x30[0m[K
+[90m19:10:11[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Write ptest.test.mjs (12.9KB)[0m[K
+[90m19:10:17[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Capture real TUI at 160x45 with focus view[0m[K
+[90m19:10:22[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m [31m✗ Bash: Exit code 1 ◆ (workflow script not found) wf_dee01e3a-097 ● running 21m21s si[0m…[0m[K
+[90m19:10:27[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Run the test suite[0m[K
+[90m19:10:28[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Show the focus frame from the real capture[0m[K
+[90m19:10:31[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Run the test suite with glob[0m[K
+[90m19:10:35[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Read the 45 s live feed capture[0m[K
+[90m19:10:59[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m [97m“Live feed works across both running runs. Now the README.”[0m[0m[K
+[90m19:11:15[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Fix fixtures, add frame hold for CSS end events, rerun[0m[K
+[90m19:11:37[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Write README.md (11.4KB)[0m[K
+[90m19:11:48[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Check onfinish use; hold a frame for every finish[0m[K
+[90m19:11:53[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Show onfinish usage[0m[K
+[90m19:11:58[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Re-measure hold and rerun tests[0m[K
+[90m19:12:01[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Measure TUI CPU and memory over 12 seconds[0m[K
+[90m19:12:42[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Rework rediscovery, focus polling, idle glyphs; rerun tests[0m[K
+[90m19:13:07[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Find failing test[0m[K
+[90m19:13:25[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Capture the a-key toggle between one run and all runs[0m[K
+[90mq quit · ↑↓/jk select · ⏎/f focus · p pause · r rescan · a all runs · ? help[0m                                   [90m19:13:28[0m[0m[K[J[?2026l[?2026h[H[1m2 runs[0m[90m · 2 running[0m[0m[K
+[1m[35m◆ ultrawatch[0m[0m  [90mwf_997c3870-43a[0m  [1;36m● running[0m  [97m33m43s[0m[90m since 18:39[0m                                           [90mdefault [0mopus-5.5[0m[K
+[1magents[0m [36m▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[90m░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m [32m0 done[0m[90m · [0m[36m1 running[0m[90m / 1 agents seen[0m[90m (~3 in script)[0m[0m[K
+[36m▶[0m[1mBuild[0m [90m0/1[0m[90m  [0m[90m·[0m[90mReview[0m [90m–[0m[90m  [0m[90m·[0m[90mFix[0m [90m–[0m[0m[K
+[90m  agent            phase model      time   out   ctx tool progress       ago current activity                         [0m[0m[K
+[48;5;236m[36m⠼[0m[48;5;236m [93mbuild:ultrawatch[0m[48;5;236m [90mBuild[0m[48;5;236m [34mopus-5.5[0m[48;5;236m 33m43s   56k  300k   86 [36m█████████[0m[48;5;236m[90m[0m[48;5;236m 4/4   [90m2s[0m[48;5;236m Bash: Capture the a-key toggle between o…[0m[0m[K
+[0m[K
+[1m[35m◆ (workflow script not found)[0m[0m  [90mwf_dee01e3a-097[0m  [1;36m● running[0m  [97m24m30s[0m[90m since 18:48[0m                          [90mdefault [0mopus-5.5[0m[K
+[1magents[0m [36m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[90m[0m [32m0 done[0m[90m · [0m[36m1 running[0m[90m / 1 agents seen[0m[0m[K
+[36m▶[0m[1mBuild[0m [90m0/1[0m[0m[K
+[90m  agent            phase model      time   out   ctx tool progress       ago current activity                         [0m[0m[K
+[36m⠼[0m [34mbuild:ptest[0m      [90mBuild[0m [34mopus-5.5[0m 24m30s   29k  186k   45 [36m░░░░░░░░░░▒▓▒[0m   [90m6s[0m [3mthinking…[0m                                [0m[K
+[90m── feed ──────────────────────────────────────────────────────────────────────────────────────────────────────────────[0m[0m[K
+[90m19:08:31[0m [34mbuild:ptest   [0m [34mopus-5.5[0m [97m“Now the test fixtures and test suite.”[0m[0m[K
+[90m19:08:36[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Give background TUI the tty and rerun resize test[0m[K
+[90m19:08:50[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Write test fixtures[0m[K
+[90m19:09:02[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Record progress and list real runs[0m[K
+[90m19:09:29[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Follow the live runs in feed mode for 20 seconds[0m[K
+[90m19:09:34[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Follow live runs in feed mode for 20 seconds[0m[K
+[90m19:10:01[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Start a 45 s background feed capture of live runs[0m[K
+[90m19:10:05[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m [97m“Meanwhile, the TUI against the real live runs in a pty at 80 and 160 columns.”[0m[0m[K
+[90m19:10:06[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Capture the real TUI in --all mode at 80x30[0m[K
+[90m19:10:11[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Write ptest.test.mjs (12.9KB)[0m[K
+[90m19:10:17[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Capture real TUI at 160x45 with focus view[0m[K
+[90m19:10:22[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m [31m✗ Bash: Exit code 1 ◆ (workflow script not found) wf_dee01e3a-097 ● running 21m21s si[0m…[0m[K
+[90m19:10:27[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Run the test suite[0m[K
+[90m19:10:28[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Show the focus frame from the real capture[0m[K
+[90m19:10:31[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Run the test suite with glob[0m[K
+[90m19:10:35[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Read the 45 s live feed capture[0m[K
+[90m19:10:59[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m [97m“Live feed works across both running runs. Now the README.”[0m[0m[K
+[90m19:11:15[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Fix fixtures, add frame hold for CSS end events, rerun[0m[K
+[90m19:11:37[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Write README.md (11.4KB)[0m[K
+[90m19:11:48[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Check onfinish use; hold a frame for every finish[0m[K
+[90m19:11:53[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Show onfinish usage[0m[K
+[90m19:11:58[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Re-measure hold and rerun tests[0m[K
+[90m19:12:01[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Measure TUI CPU and memory over 12 seconds[0m[K
+[90m19:12:42[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Rework rediscovery, focus polling, idle glyphs; rerun tests[0m[K
+[90m19:13:07[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Find failing test[0m[K
+[90m19:13:25[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Capture the a-key toggle between one run and all runs[0m[K
+[90mq quit · ↑↓/jk select · ⏎/f focus · p pause · r rescan · a all runs · ? help[0m                                   [90m19:13:28[0m[0m[K[J[?2026l[?2026h[H[1m2 runs[0m[90m · 2 running[0m[0m[K
+[1m[35m◆ ultrawatch[0m[0m  [90mwf_997c3870-43a[0m  [1;36m● running[0m  [97m33m43s[0m[90m since 18:39[0m                                           [90mdefault [0mopus-5.5[0m[K
+[1magents[0m [36m▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[90m░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m [32m0 done[0m[90m · [0m[36m1 running[0m[90m / 1 agents seen[0m[90m (~3 in script)[0m[0m[K
+[36m▶[0m[1mBuild[0m [90m0/1[0m[90m  [0m[90m·[0m[90mReview[0m [90m–[0m[90m  [0m[90m·[0m[90mFix[0m [90m–[0m[0m[K
+[90m  agent            phase model      time   out   ctx tool progress       ago current activity                         [0m[0m[K
+[48;5;236m[36m⠴[0m[48;5;236m [93mbuild:ultrawatch[0m[48;5;236m [90mBuild[0m[48;5;236m [34mopus-5.5[0m[48;5;236m 33m43s   56k  300k   86 [36m█████████[0m[48;5;236m[90m[0m[48;5;236m 4/4   [90m2s[0m[48;5;236m Bash: Capture the a-key toggle between o…[0m[0m[K
+[0m[K
+[1m[35m◆ (workflow script not found)[0m[0m  [90mwf_dee01e3a-097[0m  [1;36m● running[0m  [97m24m30s[0m[90m since 18:48[0m                          [90mdefault [0mopus-5.5[0m[K
+[1magents[0m [36m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[90m[0m [32m0 done[0m[90m · [0m[36m1 running[0m[90m / 1 agents seen[0m[0m[K
+[36m▶[0m[1mBuild[0m [90m0/1[0m[0m[K
+[90m  agent            phase model      time   out   ctx tool progress       ago current activity                         [0m[0m[K
+[36m⠴[0m [34mbuild:ptest[0m      [90mBuild[0m [34mopus-5.5[0m 24m30s   29k  186k   45 [36m░░░░░░░░░░▒▓▒[0m   [90m6s[0m [3mthinking…[0m                                [0m[K
+[90m── feed ──────────────────────────────────────────────────────────────────────────────────────────────────────────────[0m[0m[K
+[90m19:08:31[0m [34mbuild:ptest   [0m [34mopus-5.5[0m [97m“Now the test fixtures and test suite.”[0m[0m[K
+[90m19:08:36[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Give background TUI the tty and rerun resize test[0m[K
+[90m19:08:50[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Write test fixtures[0m[K
+[90m19:09:02[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Record progress and list real runs[0m[K
+[90m19:09:29[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Follow the live runs in feed mode for 20 seconds[0m[K
+[90m19:09:34[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Follow live runs in feed mode for 20 seconds[0m[K
+[90m19:10:01[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Start a 45 s background feed capture of live runs[0m[K
+[90m19:10:05[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m [97m“Meanwhile, the TUI against the real live runs in a pty at 80 and 160 columns.”[0m[0m[K
+[90m19:10:06[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Capture the real TUI in --all mode at 80x30[0m[K
+[90m19:10:11[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Write ptest.test.mjs (12.9KB)[0m[K
+[90m19:10:17[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Capture real TUI at 160x45 with focus view[0m[K
+[90m19:10:22[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m [31m✗ Bash: Exit code 1 ◆ (workflow script not found) wf_dee01e3a-097 ● running 21m21s si[0m…[0m[K
+[90m19:10:27[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Run the test suite[0m[K
+[90m19:10:28[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Show the focus frame from the real capture[0m[K
+[90m19:10:31[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Run the test suite with glob[0m[K
+[90m19:10:35[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Read the 45 s live feed capture[0m[K
+[90m19:10:59[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m [97m“Live feed works across both running runs. Now the README.”[0m[0m[K
+[90m19:11:15[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Fix fixtures, add frame hold for CSS end events, rerun[0m[K
+[90m19:11:37[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Write README.md (11.4KB)[0m[K
+[90m19:11:48[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Check onfinish use; hold a frame for every finish[0m[K
+[90m19:11:53[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Show onfinish usage[0m[K
+[90m19:11:58[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Re-measure hold and rerun tests[0m[K
+[90m19:12:01[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Measure TUI CPU and memory over 12 seconds[0m[K
+[90m19:12:42[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Rework rediscovery, focus polling, idle glyphs; rerun tests[0m[K
+[90m19:13:07[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Find failing test[0m[K
+[90m19:13:25[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Capture the a-key toggle between one run and all runs[0m[K
+[90mq quit · ↑↓/jk select · ⏎/f focus · p pause · r rescan · a all runs · ? help[0m                                   [90m19:13:28[0m[0m[K[J[?2026l[?2026h[H[1m2 runs[0m[90m · 2 running[0m[0m[K
+[1m[35m◆ ultrawatch[0m[0m  [90mwf_997c3870-43a[0m  [1;36m● running[0m  [97m33m43s[0m[90m since 18:39[0m                                           [90mdefault [0mopus-5.5[0m[K
+[1magents[0m [36m▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[90m░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m [32m0 done[0m[90m · [0m[36m1 running[0m[90m / 1 agents seen[0m[90m (~3 in script)[0m[0m[K
+[36m▶[0m[1mBuild[0m [90m0/1[0m[90m  [0m[90m·[0m[90mReview[0m [90m–[0m[90m  [0m[90m·[0m[90mFix[0m [90m–[0m[0m[K
+[90m  agent            phase model      time   out   ctx tool progress       ago current activity                         [0m[0m[K
+[48;5;236m[36m⠇[0m[48;5;236m [93mbuild:ultrawatch[0m[48;5;236m [90mBuild[0m[48;5;236m [34mopus-5.5[0m[48;5;236m 33m43s   56k  300k   86 [36m█████████[0m[48;5;236m[90m[0m[48;5;236m 4/4   [90m2s[0m[48;5;236m Bash: Capture the a-key toggle between o…[0m[0m[K
+[0m[K
+[1m[35m◆ (workflow script not found)[0m[0m  [90mwf_dee01e3a-097[0m  [1;36m● running[0m  [97m24m30s[0m[90m since 18:48[0m                          [90mdefault [0mopus-5.5[0m[K
+[1magents[0m [36m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[90m[0m [32m0 done[0m[90m · [0m[36m1 running[0m[90m / 1 agents seen[0m[0m[K
+[36m▶[0m[1mBuild[0m [90m0/1[0m[0m[K
+[90m  agent            phase model      time   out   ctx tool progress       ago current activity                         [0m[0m[K
+[36m⠇[0m [34mbuild:ptest[0m      [90mBuild[0m [34mopus-5.5[0m 24m30s   29k  186k   45 [36m░░░░░░░░▒▓▒░░[0m   [90m6s[0m [3mthinking…[0m                                [0m[K
+[90m── feed ──────────────────────────────────────────────────────────────────────────────────────────────────────────────[0m[0m[K
+[90m19:08:31[0m [34mbuild:ptest   [0m [34mopus-5.5[0m [97m“Now the test fixtures and test suite.”[0m[0m[K
+[90m19:08:36[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Give background TUI the tty and rerun resize test[0m[K
+[90m19:08:50[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Write test fixtures[0m[K
+[90m19:09:02[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Record progress and list real runs[0m[K
+[90m19:09:29[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Follow the live runs in feed mode for 20 seconds[0m[K
+[90m19:09:34[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Follow live runs in feed mode for 20 seconds[0m[K
+[90m19:10:01[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Start a 45 s background feed capture of live runs[0m[K
+[90m19:10:05[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m [97m“Meanwhile, the TUI against the real live runs in a pty at 80 and 160 columns.”[0m[0m[K
+[90m19:10:06[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Capture the real TUI in --all mode at 80x30[0m[K
+[90m19:10:11[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Write ptest.test.mjs (12.9KB)[0m[K
+[90m19:10:17[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Capture real TUI at 160x45 with focus view[0m[K
+[90m19:10:22[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m [31m✗ Bash: Exit code 1 ◆ (workflow script not found) wf_dee01e3a-097 ● running 21m21s si[0m…[0m[K
+[90m19:10:27[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Run the test suite[0m[K
+[90m19:10:28[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Show the focus frame from the real capture[0m[K
+[90m19:10:31[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Run the test suite with glob[0m[K
+[90m19:10:35[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Read the 45 s live feed capture[0m[K
+[90m19:10:59[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m [97m“Live feed works across both running runs. Now the README.”[0m[0m[K
+[90m19:11:15[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Fix fixtures, add frame hold for CSS end events, rerun[0m[K
+[90m19:11:37[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Write README.md (11.4KB)[0m[K
+[90m19:11:48[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Check onfinish use; hold a frame for every finish[0m[K
+[90m19:11:53[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Show onfinish usage[0m[K
+[90m19:11:58[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Re-measure hold and rerun tests[0m[K
+[90m19:12:01[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Measure TUI CPU and memory over 12 seconds[0m[K
+[90m19:12:42[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Rework rediscovery, focus polling, idle glyphs; rerun tests[0m[K
+[90m19:13:07[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Find failing test[0m[K
+[90m19:13:25[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Capture the a-key toggle between one run and all runs[0m[K
+[90mq quit · ↑↓/jk select · ⏎/f focus · p pause · r rescan · a all runs · ? help[0m                                   [90m19:13:28[0m[0m[K[J[?2026l[?2026h[H[1m2 runs[0m[90m · 2 running[0m[0m[K
+[1m[35m◆ ultrawatch[0m[0m  [90mwf_997c3870-43a[0m  [1;36m● running[0m  [97m33m43s[0m[90m since 18:39[0m                                           [90mdefault [0mopus-5.5[0m[K
+[1magents[0m [36m▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[90m░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m [32m0 done[0m[90m · [0m[36m1 running[0m[90m / 1 agents seen[0m[90m (~3 in script)[0m[0m[K
+[36m▶[0m[1mBuild[0m [90m0/1[0m[90m  [0m[90m·[0m[90mReview[0m [90m–[0m[90m  [0m[90m·[0m[90mFix[0m [90m–[0m[0m[K
+[90m  agent            phase model      time   out   ctx tool progress       ago current activity                         [0m[0m[K
+[48;5;236m[36m⠋[0m[48;5;236m [93mbuild:ultrawatch[0m[48;5;236m [90mBuild[0m[48;5;236m [34mopus-5.5[0m[48;5;236m 33m43s   56k  300k   86 [36m█████████[0m[48;5;236m[90m[0m[48;5;236m 4/4   [90m3s[0m[48;5;236m Bash: Capture the a-key toggle between o…[0m[0m[K
+[0m[K
+[1m[35m◆ (workflow script not found)[0m[0m  [90mwf_dee01e3a-097[0m  [1;36m● running[0m  [97m24m31s[0m[90m since 18:48[0m                          [90mdefault [0mopus-5.5[0m[K
+[1magents[0m [36m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[90m[0m [32m0 done[0m[90m · [0m[36m1 running[0m[90m / 1 agents seen[0m[0m[K
+[36m▶[0m[1mBuild[0m [90m0/1[0m[0m[K
+[90m  agent            phase model      time   out   ctx tool progress       ago current activity                         [0m[0m[K
+[36m⠋[0m [34mbuild:ptest[0m      [90mBuild[0m [34mopus-5.5[0m 24m31s   29k  186k   45 [36m░░░░░░░▒▓▒░░░[0m   [90m6s[0m [3mthinking…[0m                                [0m[K
+[90m── feed ──────────────────────────────────────────────────────────────────────────────────────────────────────────────[0m[0m[K
+[90m19:08:31[0m [34mbuild:ptest   [0m [34mopus-5.5[0m [97m“Now the test fixtures and test suite.”[0m[0m[K
+[90m19:08:36[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Give background TUI the tty and rerun resize test[0m[K
+[90m19:08:50[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Write test fixtures[0m[K
+[90m19:09:02[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Record progress and list real runs[0m[K
+[90m19:09:29[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Follow the live runs in feed mode for 20 seconds[0m[K
+[90m19:09:34[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Follow live runs in feed mode for 20 seconds[0m[K
+[90m19:10:01[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Start a 45 s background feed capture of live runs[0m[K
+[90m19:10:05[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m [97m“Meanwhile, the TUI against the real live runs in a pty at 80 and 160 columns.”[0m[0m[K
+[90m19:10:06[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Capture the real TUI in --all mode at 80x30[0m[K
+[90m19:10:11[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Write ptest.test.mjs (12.9KB)[0m[K
+[90m19:10:17[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Capture real TUI at 160x45 with focus view[0m[K
+[90m19:10:22[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m [31m✗ Bash: Exit code 1 ◆ (workflow script not found) wf_dee01e3a-097 ● running 21m21s si[0m…[0m[K
+[90m19:10:27[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Run the test suite[0m[K
+[90m19:10:28[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Show the focus frame from the real capture[0m[K
+[90m19:10:31[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Run the test suite with glob[0m[K
+[90m19:10:35[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Read the 45 s live feed capture[0m[K
+[90m19:10:59[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m [97m“Live feed works across both running runs. Now the README.”[0m[0m[K
+[90m19:11:15[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Fix fixtures, add frame hold for CSS end events, rerun[0m[K
+[90m19:11:37[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Write README.md (11.4KB)[0m[K
+[90m19:11:48[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Check onfinish use; hold a frame for every finish[0m[K
+[90m19:11:53[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Show onfinish usage[0m[K
+[90m19:11:58[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Re-measure hold and rerun tests[0m[K
+[90m19:12:01[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Measure TUI CPU and memory over 12 seconds[0m[K
+[90m19:12:42[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Rework rediscovery, focus polling, idle glyphs; rerun tests[0m[K
+[90m19:13:07[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Find failing test[0m[K
+[90m19:13:25[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Capture the a-key toggle between one run and all runs[0m[K
+[90mq quit · ↑↓/jk select · ⏎/f focus · p pause · r rescan · a all runs · ? help[0m                                   [90m19:13:29[0m[0m[K[J[?2026l[?2026h[H[1m2 runs[0m[90m · 2 running[0m[0m[K
+[1m[35m◆ ultrawatch[0m[0m  [90mwf_997c3870-43a[0m  [1;36m● running[0m  [97m33m44s[0m[90m since 18:39[0m                                           [90mdefault [0mopus-5.5[0m[K
+[1magents[0m [36m▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[90m░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m [32m0 done[0m[90m · [0m[36m1 running[0m[90m / 1 agents seen[0m[90m (~3 in script)[0m[0m[K
+[36m▶[0m[1mBuild[0m [90m0/1[0m[90m  [0m[90m·[0m[90mReview[0m [90m–[0m[90m  [0m[90m·[0m[90mFix[0m [90m–[0m[0m[K
+[90m  agent            phase model      time   out   ctx tool progress       ago current activity                         [0m[0m[K
+[48;5;236m[36m⠸[0m[48;5;236m [93mbuild:ultrawatch[0m[48;5;236m [90mBuild[0m[48;5;236m [34mopus-5.5[0m[48;5;236m 33m44s   56k  300k   86 [36m█████████[0m[48;5;236m[90m[0m[48;5;236m 4/4   [90m3s[0m[48;5;236m Bash: Capture the a-key toggle between o…[0m[0m[K
+[0m[K
+[1m[35m◆ (workflow script not found)[0m[0m  [90mwf_dee01e3a-097[0m  [1;36m● running[0m  [97m24m31s[0m[90m since 18:48[0m                          [90mdefault [0mopus-5.5[0m[K
+[1magents[0m [36m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[90m[0m [32m0 done[0m[90m · [0m[36m1 running[0m[90m / 1 agents seen[0m[0m[K
+[36m▶[0m[1mBuild[0m [90m0/1[0m[0m[K
+[90m  agent            phase model      time   out   ctx tool progress       ago current activity                         [0m[0m[K
+[36m⠸[0m [34mbuild:ptest[0m      [90mBuild[0m [34mopus-5.5[0m 24m31s   29k  186k   45 [36m░░░░░▒▓▒░░░░░[0m   [90m7s[0m [3mthinking…[0m                                [0m[K
+[90m── feed ──────────────────────────────────────────────────────────────────────────────────────────────────────────────[0m[0m[K
+[90m19:08:31[0m [34mbuild:ptest   [0m [34mopus-5.5[0m [97m“Now the test fixtures and test suite.”[0m[0m[K
+[90m19:08:36[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Give background TUI the tty and rerun resize test[0m[K
+[90m19:08:50[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Write test fixtures[0m[K
+[90m19:09:02[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Record progress and list real runs[0m[K
+[90m19:09:29[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Follow the live runs in feed mode for 20 seconds[0m[K
+[90m19:09:34[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Follow live runs in feed mode for 20 seconds[0m[K
+[90m19:10:01[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Start a 45 s background feed capture of live runs[0m[K
+[90m19:10:05[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m [97m“Meanwhile, the TUI against the real live runs in a pty at 80 and 160 columns.”[0m[0m[K
+[90m19:10:06[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Capture the real TUI in --all mode at 80x30[0m[K
+[90m19:10:11[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Write ptest.test.mjs (12.9KB)[0m[K
+[90m19:10:17[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Capture real TUI at 160x45 with focus view[0m[K
+[90m19:10:22[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m [31m✗ Bash: Exit code 1 ◆ (workflow script not found) wf_dee01e3a-097 ● running 21m21s si[0m…[0m[K
+[90m19:10:27[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Run the test suite[0m[K
+[90m19:10:28[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Show the focus frame from the real capture[0m[K
+[90m19:10:31[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Run the test suite with glob[0m[K
+[90m19:10:35[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Read the 45 s live feed capture[0m[K
+[90m19:10:59[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m [97m“Live feed works across both running runs. Now the README.”[0m[0m[K
+[90m19:11:15[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Fix fixtures, add frame hold for CSS end events, rerun[0m[K
+[90m19:11:37[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Write README.md (11.4KB)[0m[K
+[90m19:11:48[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Check onfinish use; hold a frame for every finish[0m[K
+[90m19:11:53[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Show onfinish usage[0m[K
+[90m19:11:58[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Re-measure hold and rerun tests[0m[K
+[90m19:12:01[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Measure TUI CPU and memory over 12 seconds[0m[K
+[90m19:12:42[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Rework rediscovery, focus polling, idle glyphs; rerun tests[0m[K
+[90m19:13:07[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Find failing test[0m[K
+[90m19:13:25[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Capture the a-key toggle between one run and all runs[0m[K
+[90mq quit · ↑↓/jk select · ⏎/f focus · p pause · r rescan · a all runs · ? help[0m                                   [90m19:13:29[0m[0m[K[J[?2026l[?2026h[H[1m2 runs[0m[90m · 2 running[0m[0m[K
+[1m[35m◆ ultrawatch[0m[0m  [90mwf_997c3870-43a[0m  [1;36m● running[0m  [97m33m44s[0m[90m since 18:39[0m                                           [90mdefault [0mopus-5.5[0m[K
+[1magents[0m [36m▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[90m░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m [32m0 done[0m[90m · [0m[36m1 running[0m[90m / 1 agents seen[0m[90m (~3 in script)[0m[0m[K
+[36m▶[0m[1mBuild[0m [90m0/1[0m[90m  [0m[90m·[0m[90mReview[0m [90m–[0m[90m  [0m[90m·[0m[90mFix[0m [90m–[0m[0m[K
+[90m  agent            phase model      time   out   ctx tool progress       ago current activity                         [0m[0m[K
+[48;5;236m[36m⠴[0m[48;5;236m [93mbuild:ultrawatch[0m[48;5;236m [90mBuild[0m[48;5;236m [34mopus-5.5[0m[48;5;236m 33m44s   56k  300k   86 [36m█████████[0m[48;5;236m[90m[0m[48;5;236m 4/4   [90m3s[0m[48;5;236m Bash: Capture the a-key toggle between o…[0m[0m[K
+[0m[K
+[1m[35m◆ (workflow script not found)[0m[0m  [90mwf_dee01e3a-097[0m  [1;36m● running[0m  [97m24m31s[0m[90m since 18:48[0m                          [90mdefault [0mopus-5.5[0m[K
+[1magents[0m [36m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[90m[0m [32m0 done[0m[90m · [0m[36m1 running[0m[90m / 1 agents seen[0m[0m[K
+[36m▶[0m[1mBuild[0m [90m0/1[0m[0m[K
+[90m  agent            phase model      time   out   ctx tool progress       ago current activity                         [0m[0m[K
+[36m⠴[0m [34mbuild:ptest[0m      [90mBuild[0m [34mopus-5.5[0m 24m31s   29k  186k   45 [36m░░░░▒▓▒░░░░░░[0m   [90m7s[0m [3mthinking…[0m                                [0m[K
+[90m── feed ──────────────────────────────────────────────────────────────────────────────────────────────────────────────[0m[0m[K
+[90m19:08:31[0m [34mbuild:ptest   [0m [34mopus-5.5[0m [97m“Now the test fixtures and test suite.”[0m[0m[K
+[90m19:08:36[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Give background TUI the tty and rerun resize test[0m[K
+[90m19:08:50[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Write test fixtures[0m[K
+[90m19:09:02[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Record progress and list real runs[0m[K
+[90m19:09:29[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Follow the live runs in feed mode for 20 seconds[0m[K
+[90m19:09:34[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Follow live runs in feed mode for 20 seconds[0m[K
+[90m19:10:01[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Start a 45 s background feed capture of live runs[0m[K
+[90m19:10:05[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m [97m“Meanwhile, the TUI against the real live runs in a pty at 80 and 160 columns.”[0m[0m[K
+[90m19:10:06[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Capture the real TUI in --all mode at 80x30[0m[K
+[90m19:10:11[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Write ptest.test.mjs (12.9KB)[0m[K
+[90m19:10:17[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Capture real TUI at 160x45 with focus view[0m[K
+[90m19:10:22[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m [31m✗ Bash: Exit code 1 ◆ (workflow script not found) wf_dee01e3a-097 ● running 21m21s si[0m…[0m[K
+[90m19:10:27[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Run the test suite[0m[K
+[90m19:10:28[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Show the focus frame from the real capture[0m[K
+[90m19:10:31[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Run the test suite with glob[0m[K
+[90m19:10:35[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Read the 45 s live feed capture[0m[K
+[90m19:10:59[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m [97m“Live feed works across both running runs. Now the README.”[0m[0m[K
+[90m19:11:15[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Fix fixtures, add frame hold for CSS end events, rerun[0m[K
+[90m19:11:37[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Write README.md (11.4KB)[0m[K
+[90m19:11:48[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Check onfinish use; hold a frame for every finish[0m[K
+[90m19:11:53[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Show onfinish usage[0m[K
+[90m19:11:58[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Re-measure hold and rerun tests[0m[K
+[90m19:12:01[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Measure TUI CPU and memory over 12 seconds[0m[K
+[90m19:12:42[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Rework rediscovery, focus polling, idle glyphs; rerun tests[0m[K
+[90m19:13:07[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Find failing test[0m[K
+[90m19:13:25[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Capture the a-key toggle between one run and all runs[0m[K
+[90mq quit · ↑↓/jk select · ⏎/f focus · p pause · r rescan · a all runs · ? help[0m                                   [90m19:13:29[0m[0m[K[J[?2026l[?2026h[H[1m2 runs[0m[90m · 2 running[0m[0m[K
+[1m[35m◆ ultrawatch[0m[0m  [90mwf_997c3870-43a[0m  [1;36m● running[0m  [97m33m44s[0m[90m since 18:39[0m                                           [90mdefault [0mopus-5.5[0m[K
+[1magents[0m [36m▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[90m░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m [32m0 done[0m[90m · [0m[36m1 running[0m[90m / 1 agents seen[0m[90m (~3 in script)[0m[0m[K
+[36m▶[0m[1mBuild[0m [90m0/1[0m[90m  [0m[90m·[0m[90mReview[0m [90m–[0m[90m  [0m[90m·[0m[90mFix[0m [90m–[0m[0m[K
+[90m  agent            phase model      time   out   ctx tool progress       ago current activity                         [0m[0m[K
+[48;5;236m[36m⠇[0m[48;5;236m [93mbuild:ultrawatch[0m[48;5;236m [90mBuild[0m[48;5;236m [34mopus-5.5[0m[48;5;236m 33m44s   56k  300k   86 [36m█████████[0m[48;5;236m[90m[0m[48;5;236m 4/4   [90m3s[0m[48;5;236m Bash: Capture the a-key toggle between o…[0m[0m[K
+[0m[K
+[1m[35m◆ (workflow script not found)[0m[0m  [90mwf_dee01e3a-097[0m  [1;36m● running[0m  [97m24m31s[0m[90m since 18:48[0m                          [90mdefault [0mopus-5.5[0m[K
+[1magents[0m [36m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[90m[0m [32m0 done[0m[90m · [0m[36m1 running[0m[90m / 1 agents seen[0m[0m[K
+[36m▶[0m[1mBuild[0m [90m0/1[0m[0m[K
+[90m  agent            phase model      time   out   ctx tool progress       ago current activity                         [0m[0m[K
+[36m⠇[0m [34mbuild:ptest[0m      [90mBuild[0m [34mopus-5.5[0m 24m31s   29k  186k   45 [36m░░▒▓▒░░░░░░░░[0m   [90m7s[0m [3mthinking…[0m                                [0m[K
+[90m── feed ──────────────────────────────────────────────────────────────────────────────────────────────────────────────[0m[0m[K
+[90m19:08:31[0m [34mbuild:ptest   [0m [34mopus-5.5[0m [97m“Now the test fixtures and test suite.”[0m[0m[K
+[90m19:08:36[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Give background TUI the tty and rerun resize test[0m[K
+[90m19:08:50[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Write test fixtures[0m[K
+[90m19:09:02[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Record progress and list real runs[0m[K
+[90m19:09:29[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Follow the live runs in feed mode for 20 seconds[0m[K
+[90m19:09:34[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Follow live runs in feed mode for 20 seconds[0m[K
+[90m19:10:01[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Start a 45 s background feed capture of live runs[0m[K
+[90m19:10:05[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m [97m“Meanwhile, the TUI against the real live runs in a pty at 80 and 160 columns.”[0m[0m[K
+[90m19:10:06[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Capture the real TUI in --all mode at 80x30[0m[K
+[90m19:10:11[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Write ptest.test.mjs (12.9KB)[0m[K
+[90m19:10:17[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Capture real TUI at 160x45 with focus view[0m[K
+[90m19:10:22[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m [31m✗ Bash: Exit code 1 ◆ (workflow script not found) wf_dee01e3a-097 ● running 21m21s si[0m…[0m[K
+[90m19:10:27[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Run the test suite[0m[K
+[90m19:10:28[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Show the focus frame from the real capture[0m[K
+[90m19:10:31[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Run the test suite with glob[0m[K
+[90m19:10:35[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Read the 45 s live feed capture[0m[K
+[90m19:10:59[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m [97m“Live feed works across both running runs. Now the README.”[0m[0m[K
+[90m19:11:15[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Fix fixtures, add frame hold for CSS end events, rerun[0m[K
+[90m19:11:37[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Write README.md (11.4KB)[0m[K
+[90m19:11:48[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Check onfinish use; hold a frame for every finish[0m[K
+[90m19:11:53[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Show onfinish usage[0m[K
+[90m19:11:58[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Re-measure hold and rerun tests[0m[K
+[90m19:12:01[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Measure TUI CPU and memory over 12 seconds[0m[K
+[90m19:12:42[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Rework rediscovery, focus polling, idle glyphs; rerun tests[0m[K
+[90m19:13:07[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Find failing test[0m[K
+[90m19:13:25[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Capture the a-key toggle between one run and all runs[0m[K
+[90mq quit · ↑↓/jk select · ⏎/f focus · p pause · r rescan · a all runs · ? help[0m                                   [90m19:13:29[0m[0m[K[J[?2026l[?2026h[H[1m2 runs[0m[90m · 2 running[0m[0m[K
+[1m[35m◆ ultrawatch[0m[0m  [90mwf_997c3870-43a[0m  [1;36m● running[0m  [97m33m44s[0m[90m since 18:39[0m                                           [90mdefault [0mopus-5.5[0m[K
+[1magents[0m [36m▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[90m░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m [32m0 done[0m[90m · [0m[36m1 running[0m[90m / 1 agents seen[0m[90m (~3 in script)[0m[0m[K
+[36m▶[0m[1mBuild[0m [90m0/1[0m[90m  [0m[90m·[0m[90mReview[0m [90m–[0m[90m  [0m[90m·[0m[90mFix[0m [90m–[0m[0m[K
+[90m  agent            phase model      time   out   ctx tool progress       ago current activity                         [0m[0m[K
+[48;5;236m[36m⠋[0m[48;5;236m [93mbuild:ultrawatch[0m[48;5;236m [90mBuild[0m[48;5;236m [34mopus-5.5[0m[48;5;236m 33m44s   56k  300k   86 [36m█████████[0m[48;5;236m[90m[0m[48;5;236m 4/4   [90m4s[0m[48;5;236m Bash: Capture the a-key toggle between o…[0m[0m[K
+[0m[K
+[1m[35m◆ (workflow script not found)[0m[0m  [90mwf_dee01e3a-097[0m  [1;36m● running[0m  [97m24m32s[0m[90m since 18:48[0m                          [90mdefault [0mopus-5.5[0m[K
+[1magents[0m [36m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[90m[0m [32m0 done[0m[90m · [0m[36m1 running[0m[90m / 1 agents seen[0m[0m[K
+[36m▶[0m[1mBuild[0m [90m0/1[0m[0m[K
+[90m  agent            phase model      time   out   ctx tool progress       ago current activity                         [0m[0m[K
+[36m⠋[0m [34mbuild:ptest[0m      [90mBuild[0m [34mopus-5.5[0m 24m32s   29k  186k   45 [36m▒▓▒░░░░░░░░░░[0m   [90m7s[0m [3mthinking…[0m                                [0m[K
+[90m── feed ──────────────────────────────────────────────────────────────────────────────────────────────────────────────[0m[0m[K
+[90m19:08:31[0m [34mbuild:ptest   [0m [34mopus-5.5[0m [97m“Now the test fixtures and test suite.”[0m[0m[K
+[90m19:08:36[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Give background TUI the tty and rerun resize test[0m[K
+[90m19:08:50[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Write test fixtures[0m[K
+[90m19:09:02[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Record progress and list real runs[0m[K
+[90m19:09:29[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Follow the live runs in feed mode for 20 seconds[0m[K
+[90m19:09:34[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Follow live runs in feed mode for 20 seconds[0m[K
+[90m19:10:01[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Start a 45 s background feed capture of live runs[0m[K
+[90m19:10:05[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m [97m“Meanwhile, the TUI against the real live runs in a pty at 80 and 160 columns.”[0m[0m[K
+[90m19:10:06[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Capture the real TUI in --all mode at 80x30[0m[K
+[90m19:10:11[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Write ptest.test.mjs (12.9KB)[0m[K
+[90m19:10:17[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Capture real TUI at 160x45 with focus view[0m[K
+[90m19:10:22[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m [31m✗ Bash: Exit code 1 ◆ (workflow script not found) wf_dee01e3a-097 ● running 21m21s si[0m…[0m[K
+[90m19:10:27[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Run the test suite[0m[K
+[90m19:10:28[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Show the focus frame from the real capture[0m[K
+[90m19:10:31[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Run the test suite with glob[0m[K
+[90m19:10:35[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Read the 45 s live feed capture[0m[K
+[90m19:10:59[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m [97m“Live feed works across both running runs. Now the README.”[0m[0m[K
+[90m19:11:15[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Fix fixtures, add frame hold for CSS end events, rerun[0m[K
+[90m19:11:37[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Write README.md (11.4KB)[0m[K
+[90m19:11:48[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Check onfinish use; hold a frame for every finish[0m[K
+[90m19:11:53[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Show onfinish usage[0m[K
+[90m19:11:58[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Re-measure hold and rerun tests[0m[K
+[90m19:12:01[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Measure TUI CPU and memory over 12 seconds[0m[K
+[90m19:12:42[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Rework rediscovery, focus polling, idle glyphs; rerun tests[0m[K
+[90m19:13:07[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Find failing test[0m[K
+[90m19:13:25[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Capture the a-key toggle between one run and all runs[0m[K
+[90mq quit · ↑↓/jk select · ⏎/f focus · p pause · r rescan · a all runs · ? help[0m                                   [90m19:13:30[0m[0m[K[J[?2026l[?2026h[H[1m2 runs[0m[90m · 2 running[0m[0m[K
+[1m[35m◆ ultrawatch[0m[0m  [90mwf_997c3870-43a[0m  [1;36m● running[0m  [97m33m45s[0m[90m since 18:39[0m                                           [90mdefault [0mopus-5.5[0m[K
+[1magents[0m [36m▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[90m░░░░░░░░░░░░░░░░░░░░░░░░░░░[0m [32m0 done[0m[90m · [0m[36m1 running[0m[90m / 1 agents seen[0m[90m (~3 in script)[0m[0m[K
+[36m▶[0m[1mBuild[0m [90m0/1[0m[90m  [0m[90m·[0m[90mReview[0m [90m–[0m[90m  [0m[90m·[0m[90mFix[0m [90m–[0m[0m[K
+[90m  agent            phase model      time   out   ctx tool progress       ago current activity                         [0m[0m[K
+[48;5;236m[36m⠸[0m[48;5;236m [93mbuild:ultrawatch[0m[48;5;236m [90mBuild[0m[48;5;236m [34mopus-5.5[0m[48;5;236m 33m45s   56k  300k   86 [36m█████████[0m[48;5;236m[90m[0m[48;5;236m 4/4   [90m4s[0m[48;5;236m Bash: Capture the a-key toggle between o…[0m[0m[K
+[0m[K
+[1m[35m◆ (workflow script not found)[0m[0m  [90mwf_dee01e3a-097[0m  [1;36m● running[0m  [97m24m32s[0m[90m since 18:48[0m                          [90mdefault [0mopus-5.5[0m[K
+[1magents[0m [36m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[90m[0m [32m0 done[0m[90m · [0m[36m1 running[0m[90m / 1 agents seen[0m[0m[K
+[36m▶[0m[1mBuild[0m [90m0/1[0m[0m[K
+[90m  agent            phase model      time   out   ctx tool progress       ago current activity                         [0m[0m[K
+[36m⠸[0m [34mbuild:ptest[0m      [90mBuild[0m [34mopus-5.5[0m 24m32s   29k  186k   45 [36m▓▒░░░░░░░░░░░[0m   [90m8s[0m [3mthinking…[0m                                [0m[K
+[90m── feed ──────────────────────────────────────────────────────────────────────────────────────────────────────────────[0m[0m[K
+[90m19:08:31[0m [34mbuild:ptest   [0m [34mopus-5.5[0m [97m“Now the test fixtures and test suite.”[0m[0m[K
+[90m19:08:36[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Give background TUI the tty and rerun resize test[0m[K
+[90m19:08:50[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Write test fixtures[0m[K
+[90m19:09:02[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Record progress and list real runs[0m[K
+[90m19:09:29[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Follow the live runs in feed mode for 20 seconds[0m[K
+[90m19:09:34[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Follow live runs in feed mode for 20 seconds[0m[K
+[90m19:10:01[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Start a 45 s background feed capture of live runs[0m[K
+[90m19:10:05[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m [97m“Meanwhile, the TUI against the real live runs in a pty at 80 and 160 columns.”[0m[0m[K
+[90m19:10:06[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Capture the real TUI in --all mode at 80x30[0m[K
+[90m19:10:11[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Write ptest.test.mjs (12.9KB)[0m[K
+[90m19:10:17[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Capture real TUI at 160x45 with focus view[0m[K
+[90m19:10:22[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m [31m✗ Bash: Exit code 1 ◆ (workflow script not found) wf_dee01e3a-097 ● running 21m21s si[0m…[0m[K
+[90m19:10:27[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Run the test suite[0m[K
+[90m19:10:28[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Show the focus frame from the real capture[0m[K
+[90m19:10:31[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Run the test suite with glob[0m[K
+[90m19:10:35[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Read the 45 s live feed capture[0m[K
+[90m19:10:59[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m [97m“Live feed works across both running runs. Now the README.”[0m[0m[K
+[90m19:11:15[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Fix fixtures, add frame hold for CSS end events, rerun[0m[K
+[90m19:11:37[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Write README.md (11.4KB)[0m[K
+[90m19:11:48[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Check onfinish use; hold a frame for every finish[0m[K
+[90m19:11:53[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Show onfinish usage[0m[K
+[90m19:11:58[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Re-measure hold and rerun tests[0m[K
+[90m19:12:01[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Measure TUI CPU and memory over 12 seconds[0m[K
+[90m19:12:42[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Rework rediscovery, focus polling, idle glyphs; rerun tests[0m[K
+[90m19:13:07[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Find failing test[0m[K
+[90m19:13:25[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Capture the a-key toggle between one run and all runs[0m[K
+[90mq quit · ↑↓/jk select · ⏎/f focus · p pause · r rescan · a all runs · ? help[0m                                   [90m19:13:30[0m[0m[K[J[?2026l[?2026l[0m[?25h[?1049l

@@ -1,0 +1,11 @@
+◆ (workflow script not found)  wf_emoj0001-fff  ◌ idle 43m  45m00s since 17:45
+tokens 9.5k · out≈80 · in+cache 19k · tools 1 · api 2 · session aaaaaaaa · acti…
+agents ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ 0 done · 1 running / 1 seen
+ ▶ Shine ▒▒▒▒▒▒▒▒▒▒▒▒▒ 0/1 · 1 running
+  agent      model      time tool progress    ago current activity             
+◌ emoji:✨fx opus-5.5 45m00s    1 ░░░░░░░░░░  43m idle 43m · “Working on it ✅…
+── feed ───────────────────────────────────────────────────────────────────────
+17:45:00 emoji:✨fx opus-5.5 ▶ started · Shine
+17:46:00 emoji:✨fx opus-5.5 Bash: Check ✅ marks ⚡ fast
+17:47:00 emoji:✨fx opus-5.5 “Working on it ✅✅✅✅✅✅ 日本語のテキスト 🚀🚀 …
+ultrawatch 1.0.0 · 18:30:00

@@ -1,0 +1,349 @@
+[?1049h[?25l[H[2J[?2026h[H[1m2 runs[0m[90m · 2 running[0m[0m[K
+[1m[35m◆ ultrawatch[0m[0m  [90mwf_997c3870-43a[0m  [1;36m● running[0m  [97m30m22s[0m[90m since 18:39[0m   [90mdefault [0mopus-5.5[0m[K
+[1magents[0m [36m▒▒▒▒▒▒[0m[90m░░░░░░░░░░░░░[0m [32m0 done[0m[90m · [0m[36m1 running[0m[90m / 1 seen[0m[90m (~3 in script)[0m[0m[K
+[36m▶[0m[1mBuild[0m [90m0/1[0m[90m  [0m[90m·[0m[90mReview[0m [90m–[0m[90m  [0m[90m·[0m[90mFix[0m [90m–[0m[0m[K
+[90m  agent            model      time tool progress   current activity           [0m[0m[K
+[48;5;236m[36m⠧[0m[48;5;236m [93mbuild:ultrawatch[0m[48;5;236m [34mopus-5.5[0m[48;5;236m 30m22s   79 [36m██████[0m[48;5;236m[90m[0m[48;5;236m 4/4 Bash: Capture the real TUI…[0m[0m[K
+[0m[K
+[1m[35m◆ (workflow script not found)[0m[0m  [90mwf_dee01e3a-097[0m  [1;36m● running[0m  [97m21m09s[0m[90m since 18:48[0m[0m[K
+[1magents[0m [36m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[90m[0m [32m0 done[0m[90m · [0m[36m1 running[0m[90m / 1 seen[0m[0m[K
+[36m▶[0m[1mBuild[0m [90m0/1[0m[0m[K
+[90m  agent            model      time tool progress   current activity           [0m[0m[K
+[36m⠧[0m [34mbuild:ptest[0m      [34mopus-5.5[0m 21m09s   37 [36m▓▒░░░░░░░░[0m [3mthinking…[0m                  [0m[K
+[90m── feed ──────────────────────────────────────────────────────────────────────[0m[0m[K
+[90m19:06:56[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Fix frame/resize assertions and rerun p[0m…[0m[K
+[90m19:07:20[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Exact-end timers and coarser sync[0m[K
+[90m19:07:42[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Profile getAnimations and sync costs[0m[K
+[90m19:07:50[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Print raw last frame of resize capture[0m[K
+[90m19:07:52[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Rerun profiler[0m[K
+[90m19:07:58[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Show profiler numbers[0m[K
+[90m19:08:02[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Debug resize frame parsing[0m[K
+[90m19:08:31[0m [34mbuild:ptest   [0m [34mopus-5.5[0m [97m“Now the test fixtures and test suite.”[0m[0m[K
+[90m19:08:36[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Give background TUI the tty and rerun r[0m…[0m[K
+[90m19:08:50[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Write test fixtures[0m[K
+[90m19:09:02[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Record progress and list real runs[0m[K
+[90m19:09:29[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Follow the live runs in feed mode for 2[0m…[0m[K
+[90m19:09:34[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Follow live runs in feed mode for 20 se[0m…[0m[K
+[90m19:10:01[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Start a 45 s background feed capture of[0m…[0m[K
+[90m19:10:05[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m [97m“Meanwhile, the TUI against the real live run[0m…[0m[K
+[90m19:10:06[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Capture the real TUI in --all mode at 8[0m…[0m[K
+[90mq · jk · ⏎ · p · a · ?[0m                                                 [90m19:10:07[0m[0m[K[J[?2026l[?2026h[H[1m2 runs[0m[90m · 2 running[0m[0m[K
+[1m[35m◆ ultrawatch[0m[0m  [90mwf_997c3870-43a[0m  [1;36m● running[0m  [97m30m22s[0m[90m since 18:39[0m   [90mdefault [0mopus-5.5[0m[K
+[1magents[0m [36m▒▒▒▒▒▒[0m[90m░░░░░░░░░░░░░[0m [32m0 done[0m[90m · [0m[36m1 running[0m[90m / 1 seen[0m[90m (~3 in script)[0m[0m[K
+[36m▶[0m[1mBuild[0m [90m0/1[0m[90m  [0m[90m·[0m[90mReview[0m [90m–[0m[90m  [0m[90m·[0m[90mFix[0m [90m–[0m[0m[K
+[90m  agent            model      time tool progress   current activity           [0m[0m[K
+[48;5;236m[36m⠋[0m[48;5;236m [93mbuild:ultrawatch[0m[48;5;236m [34mopus-5.5[0m[48;5;236m 30m22s   79 [36m██████[0m[48;5;236m[90m[0m[48;5;236m 4/4 Bash: Capture the real TUI…[0m[0m[K
+[0m[K
+[1m[35m◆ (workflow script not found)[0m[0m  [90mwf_dee01e3a-097[0m  [1;36m● running[0m  [97m21m10s[0m[90m since 18:48[0m[0m[K
+[1magents[0m [36m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[90m[0m [32m0 done[0m[90m · [0m[36m1 running[0m[90m / 1 seen[0m[0m[K
+[36m▶[0m[1mBuild[0m [90m0/1[0m[0m[K
+[90m  agent            model      time tool progress   current activity           [0m[0m[K
+[36m⠋[0m [34mbuild:ptest[0m      [34mopus-5.5[0m 21m10s   37 [36m░▒▓▒░░░░░░[0m [3mthinking…[0m                  [0m[K
+[90m── feed ──────────────────────────────────────────────────────────────────────[0m[0m[K
+[90m19:06:56[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Fix frame/resize assertions and rerun p[0m…[0m[K
+[90m19:07:20[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Exact-end timers and coarser sync[0m[K
+[90m19:07:42[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Profile getAnimations and sync costs[0m[K
+[90m19:07:50[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Print raw last frame of resize capture[0m[K
+[90m19:07:52[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Rerun profiler[0m[K
+[90m19:07:58[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Show profiler numbers[0m[K
+[90m19:08:02[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Debug resize frame parsing[0m[K
+[90m19:08:31[0m [34mbuild:ptest   [0m [34mopus-5.5[0m [97m“Now the test fixtures and test suite.”[0m[0m[K
+[90m19:08:36[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Give background TUI the tty and rerun r[0m…[0m[K
+[90m19:08:50[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Write test fixtures[0m[K
+[90m19:09:02[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Record progress and list real runs[0m[K
+[90m19:09:29[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Follow the live runs in feed mode for 2[0m…[0m[K
+[90m19:09:34[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Follow live runs in feed mode for 20 se[0m…[0m[K
+[90m19:10:01[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Start a 45 s background feed capture of[0m…[0m[K
+[90m19:10:05[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m [97m“Meanwhile, the TUI against the real live run[0m…[0m[K
+[90m19:10:06[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Capture the real TUI in --all mode at 8[0m…[0m[K
+[90mq · jk · ⏎ · p · a · ?[0m                                                 [90m19:10:08[0m[0m[K[J[?2026l[?2026h[H[1m2 runs[0m[90m · 2 running[0m[0m[K
+[1m[35m◆ ultrawatch[0m[0m  [90mwf_997c3870-43a[0m  [1;36m● running[0m  [97m30m23s[0m[90m since 18:39[0m   [90mdefault [0mopus-5.5[0m[K
+[1magents[0m [36m▒▒▒▒▒▒[0m[90m░░░░░░░░░░░░░[0m [32m0 done[0m[90m · [0m[36m1 running[0m[90m / 1 seen[0m[90m (~3 in script)[0m[0m[K
+[36m▶[0m[1mBuild[0m [90m0/1[0m[90m  [0m[90m·[0m[90mReview[0m [90m–[0m[90m  [0m[90m·[0m[90mFix[0m [90m–[0m[0m[K
+[90m  agent            model      time tool progress   current activity           [0m[0m[K
+[48;5;236m[36m⠹[0m[48;5;236m [93mbuild:ultrawatch[0m[48;5;236m [34mopus-5.5[0m[48;5;236m 30m23s   79 [36m██████[0m[48;5;236m[90m[0m[48;5;236m 4/4 Bash: Capture the real TUI…[0m[0m[K
+[0m[K
+[1m[35m◆ (workflow script not found)[0m[0m  [90mwf_dee01e3a-097[0m  [1;36m● running[0m  [97m21m10s[0m[90m since 18:48[0m[0m[K
+[1magents[0m [36m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[90m[0m [32m0 done[0m[90m · [0m[36m1 running[0m[90m / 1 seen[0m[0m[K
+[36m▶[0m[1mBuild[0m [90m0/1[0m[0m[K
+[90m  agent            model      time tool progress   current activity           [0m[0m[K
+[36m⠹[0m [34mbuild:ptest[0m      [34mopus-5.5[0m 21m10s   37 [36m░░▒▓▒░░░░░[0m [3mthinking…[0m                  [0m[K
+[90m── feed ──────────────────────────────────────────────────────────────────────[0m[0m[K
+[90m19:06:56[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Fix frame/resize assertions and rerun p[0m…[0m[K
+[90m19:07:20[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Exact-end timers and coarser sync[0m[K
+[90m19:07:42[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Profile getAnimations and sync costs[0m[K
+[90m19:07:50[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Print raw last frame of resize capture[0m[K
+[90m19:07:52[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Rerun profiler[0m[K
+[90m19:07:58[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Show profiler numbers[0m[K
+[90m19:08:02[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Debug resize frame parsing[0m[K
+[90m19:08:31[0m [34mbuild:ptest   [0m [34mopus-5.5[0m [97m“Now the test fixtures and test suite.”[0m[0m[K
+[90m19:08:36[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Give background TUI the tty and rerun r[0m…[0m[K
+[90m19:08:50[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Write test fixtures[0m[K
+[90m19:09:02[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Record progress and list real runs[0m[K
+[90m19:09:29[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Follow the live runs in feed mode for 2[0m…[0m[K
+[90m19:09:34[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Follow live runs in feed mode for 20 se[0m…[0m[K
+[90m19:10:01[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Start a 45 s background feed capture of[0m…[0m[K
+[90m19:10:05[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m [97m“Meanwhile, the TUI against the real live run[0m…[0m[K
+[90m19:10:06[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Capture the real TUI in --all mode at 8[0m…[0m[K
+[90mq · jk · ⏎ · p · a · ?[0m                                                 [90m19:10:08[0m[0m[K[J[?2026l[?2026h[H[1m2 runs[0m[90m · 2 running[0m[0m[K
+[1m[35m◆ ultrawatch[0m[0m  [90mwf_997c3870-43a[0m  [1;36m● running[0m  [97m30m23s[0m[90m since 18:39[0m   [90mdefault [0mopus-5.5[0m[K
+[1magents[0m [36m▒▒▒▒▒▒[0m[90m░░░░░░░░░░░░░[0m [32m0 done[0m[90m · [0m[36m1 running[0m[90m / 1 seen[0m[90m (~3 in script)[0m[0m[K
+[36m▶[0m[1mBuild[0m [90m0/1[0m[90m  [0m[90m·[0m[90mReview[0m [90m–[0m[90m  [0m[90m·[0m[90mFix[0m [90m–[0m[0m[K
+[90m  agent            model      time tool progress   current activity           [0m[0m[K
+[48;5;236m[36m⠴[0m[48;5;236m [93mbuild:ultrawatch[0m[48;5;236m [34mopus-5.5[0m[48;5;236m 30m23s   79 [36m██████[0m[48;5;236m[90m[0m[48;5;236m 4/4 Bash: Capture the real TUI…[0m[0m[K
+[0m[K
+[1m[35m◆ (workflow script not found)[0m[0m  [90mwf_dee01e3a-097[0m  [1;36m● running[0m  [97m21m10s[0m[90m since 18:48[0m[0m[K
+[1magents[0m [36m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[90m[0m [32m0 done[0m[90m · [0m[36m1 running[0m[90m / 1 seen[0m[0m[K
+[36m▶[0m[1mBuild[0m [90m0/1[0m[0m[K
+[90m  agent            model      time tool progress   current activity           [0m[0m[K
+[36m⠴[0m [34mbuild:ptest[0m      [34mopus-5.5[0m 21m10s   37 [36m░░░░▒▓▒░░░[0m [3mthinking…[0m                  [0m[K
+[90m── feed ──────────────────────────────────────────────────────────────────────[0m[0m[K
+[90m19:06:56[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Fix frame/resize assertions and rerun p[0m…[0m[K
+[90m19:07:20[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Exact-end timers and coarser sync[0m[K
+[90m19:07:42[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Profile getAnimations and sync costs[0m[K
+[90m19:07:50[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Print raw last frame of resize capture[0m[K
+[90m19:07:52[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Rerun profiler[0m[K
+[90m19:07:58[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Show profiler numbers[0m[K
+[90m19:08:02[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Debug resize frame parsing[0m[K
+[90m19:08:31[0m [34mbuild:ptest   [0m [34mopus-5.5[0m [97m“Now the test fixtures and test suite.”[0m[0m[K
+[90m19:08:36[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Give background TUI the tty and rerun r[0m…[0m[K
+[90m19:08:50[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Write test fixtures[0m[K
+[90m19:09:02[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Record progress and list real runs[0m[K
+[90m19:09:29[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Follow the live runs in feed mode for 2[0m…[0m[K
+[90m19:09:34[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Follow live runs in feed mode for 20 se[0m…[0m[K
+[90m19:10:01[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Start a 45 s background feed capture of[0m…[0m[K
+[90m19:10:05[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m [97m“Meanwhile, the TUI against the real live run[0m…[0m[K
+[90m19:10:06[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Capture the real TUI in --all mode at 8[0m…[0m[K
+[90mq · jk · ⏎ · p · a · ?[0m                                                 [90m19:10:08[0m[0m[K[J[?2026l[?2026h[H[1m2 runs[0m[90m · 2 running[0m[0m[K
+[1m[35m◆ ultrawatch[0m[0m  [90mwf_997c3870-43a[0m  [1;36m● running[0m  [97m30m23s[0m[90m since 18:39[0m   [90mdefault [0mopus-5.5[0m[K
+[1magents[0m [36m▒▒▒▒▒▒[0m[90m░░░░░░░░░░░░░[0m [32m0 done[0m[90m · [0m[36m1 running[0m[90m / 1 seen[0m[90m (~3 in script)[0m[0m[K
+[36m▶[0m[1mBuild[0m [90m0/1[0m[90m  [0m[90m·[0m[90mReview[0m [90m–[0m[90m  [0m[90m·[0m[90mFix[0m [90m–[0m[0m[K
+[90m  agent            model      time tool progress   current activity           [0m[0m[K
+[48;5;236m[36m⠧[0m[48;5;236m [93mbuild:ultrawatch[0m[48;5;236m [34mopus-5.5[0m[48;5;236m 30m23s   79 [36m██████[0m[48;5;236m[90m[0m[48;5;236m 4/4 Bash: Capture the real TUI…[0m[0m[K
+[0m[K
+[1m[35m◆ (workflow script not found)[0m[0m  [90mwf_dee01e3a-097[0m  [1;36m● running[0m  [97m21m10s[0m[90m since 18:48[0m[0m[K
+[1magents[0m [36m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[90m[0m [32m0 done[0m[90m · [0m[36m1 running[0m[90m / 1 seen[0m[0m[K
+[36m▶[0m[1mBuild[0m [90m0/1[0m[0m[K
+[90m  agent            model      time tool progress   current activity           [0m[0m[K
+[36m⠧[0m [34mbuild:ptest[0m      [34mopus-5.5[0m 21m10s   37 [36m░░░░░▒▓▒░░[0m [3mthinking…[0m                  [0m[K
+[90m── feed ──────────────────────────────────────────────────────────────────────[0m[0m[K
+[90m19:06:56[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Fix frame/resize assertions and rerun p[0m…[0m[K
+[90m19:07:20[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Exact-end timers and coarser sync[0m[K
+[90m19:07:42[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Profile getAnimations and sync costs[0m[K
+[90m19:07:50[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Print raw last frame of resize capture[0m[K
+[90m19:07:52[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Rerun profiler[0m[K
+[90m19:07:58[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Show profiler numbers[0m[K
+[90m19:08:02[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Debug resize frame parsing[0m[K
+[90m19:08:31[0m [34mbuild:ptest   [0m [34mopus-5.5[0m [97m“Now the test fixtures and test suite.”[0m[0m[K
+[90m19:08:36[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Give background TUI the tty and rerun r[0m…[0m[K
+[90m19:08:50[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Write test fixtures[0m[K
+[90m19:09:02[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Record progress and list real runs[0m[K
+[90m19:09:29[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Follow the live runs in feed mode for 2[0m…[0m[K
+[90m19:09:34[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Follow live runs in feed mode for 20 se[0m…[0m[K
+[90m19:10:01[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Start a 45 s background feed capture of[0m…[0m[K
+[90m19:10:05[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m [97m“Meanwhile, the TUI against the real live run[0m…[0m[K
+[90m19:10:06[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Capture the real TUI in --all mode at 8[0m…[0m[K
+[90mq · jk · ⏎ · p · a · ?[0m                                                 [90m19:10:08[0m[0m[K[J[?2026l[?2026h[H[1m2 runs[0m[90m · 2 running[0m[0m[K
+[1m[35m◆ ultrawatch[0m[0m  [90mwf_997c3870-43a[0m  [1;36m● running[0m  [97m30m23s[0m[90m since 18:39[0m   [90mdefault [0mopus-5.5[0m[K
+[1magents[0m [36m▒▒▒▒▒▒[0m[90m░░░░░░░░░░░░░[0m [32m0 done[0m[90m · [0m[36m1 running[0m[90m / 1 seen[0m[90m (~3 in script)[0m[0m[K
+[36m▶[0m[1mBuild[0m [90m0/1[0m[90m  [0m[90m·[0m[90mReview[0m [90m–[0m[90m  [0m[90m·[0m[90mFix[0m [90m–[0m[0m[K
+[90m  agent            model      time tool progress   current activity           [0m[0m[K
+[48;5;236m[36m⠋[0m[48;5;236m [93mbuild:ultrawatch[0m[48;5;236m [34mopus-5.5[0m[48;5;236m 30m23s   79 [36m██████[0m[48;5;236m[90m[0m[48;5;236m 4/4 Bash: Capture the real TUI…[0m[0m[K
+[0m[K
+[1m[35m◆ (workflow script not found)[0m[0m  [90mwf_dee01e3a-097[0m  [1;36m● running[0m  [97m21m11s[0m[90m since 18:48[0m[0m[K
+[1magents[0m [36m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[90m[0m [32m0 done[0m[90m · [0m[36m1 running[0m[90m / 1 seen[0m[0m[K
+[36m▶[0m[1mBuild[0m [90m0/1[0m[0m[K
+[90m  agent            model      time tool progress   current activity           [0m[0m[K
+[36m⠋[0m [34mbuild:ptest[0m      [34mopus-5.5[0m 21m11s   37 [36m░░░░░░░▒▓▒[0m [3mthinking…[0m                  [0m[K
+[90m── feed ──────────────────────────────────────────────────────────────────────[0m[0m[K
+[90m19:06:56[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Fix frame/resize assertions and rerun p[0m…[0m[K
+[90m19:07:20[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Exact-end timers and coarser sync[0m[K
+[90m19:07:42[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Profile getAnimations and sync costs[0m[K
+[90m19:07:50[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Print raw last frame of resize capture[0m[K
+[90m19:07:52[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Rerun profiler[0m[K
+[90m19:07:58[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Show profiler numbers[0m[K
+[90m19:08:02[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Debug resize frame parsing[0m[K
+[90m19:08:31[0m [34mbuild:ptest   [0m [34mopus-5.5[0m [97m“Now the test fixtures and test suite.”[0m[0m[K
+[90m19:08:36[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Give background TUI the tty and rerun r[0m…[0m[K
+[90m19:08:50[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Write test fixtures[0m[K
+[90m19:09:02[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Record progress and list real runs[0m[K
+[90m19:09:29[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Follow the live runs in feed mode for 2[0m…[0m[K
+[90m19:09:34[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Follow live runs in feed mode for 20 se[0m…[0m[K
+[90m19:10:01[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Start a 45 s background feed capture of[0m…[0m[K
+[90m19:10:05[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m [97m“Meanwhile, the TUI against the real live run[0m…[0m[K
+[90m19:10:06[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Capture the real TUI in --all mode at 8[0m…[0m[K
+[90mq · jk · ⏎ · p · a · ?[0m                                                 [90m19:10:09[0m[0m[K[J[?2026l[?2026h[H[1m2 runs[0m[90m · 2 running[0m[0m[K
+[1m[35m◆ ultrawatch[0m[0m  [90mwf_997c3870-43a[0m  [1;36m● running[0m  [97m30m24s[0m[90m since 18:39[0m   [90mdefault [0mopus-5.5[0m[K
+[1magents[0m [36m▒▒▒▒▒▒[0m[90m░░░░░░░░░░░░░[0m [32m0 done[0m[90m · [0m[36m1 running[0m[90m / 1 seen[0m[90m (~3 in script)[0m[0m[K
+[36m▶[0m[1mBuild[0m [90m0/1[0m[90m  [0m[90m·[0m[90mReview[0m [90m–[0m[90m  [0m[90m·[0m[90mFix[0m [90m–[0m[0m[K
+[90m  agent            model      time tool progress   current activity           [0m[0m[K
+[48;5;236m[36m⠹[0m[48;5;236m [93mbuild:ultrawatch[0m[48;5;236m [34mopus-5.5[0m[48;5;236m 30m24s   79 [36m██████[0m[48;5;236m[90m[0m[48;5;236m 4/4 Bash: Capture the real TUI…[0m[0m[K
+[0m[K
+[1m[35m◆ (workflow script not found)[0m[0m  [90mwf_dee01e3a-097[0m  [1;36m● running[0m  [97m21m11s[0m[90m since 18:48[0m[0m[K
+[1magents[0m [36m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[90m[0m [32m0 done[0m[90m · [0m[36m1 running[0m[90m / 1 seen[0m[0m[K
+[36m▶[0m[1mBuild[0m [90m0/1[0m[0m[K
+[90m  agent            model      time tool progress   current activity           [0m[0m[K
+[36m⠹[0m [34mbuild:ptest[0m      [34mopus-5.5[0m 21m11s   37 [36m░░░░░░░░▒▓[0m [3mthinking…[0m                  [0m[K
+[90m── feed ──────────────────────────────────────────────────────────────────────[0m[0m[K
+[90m19:06:56[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Fix frame/resize assertions and rerun p[0m…[0m[K
+[90m19:07:20[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Exact-end timers and coarser sync[0m[K
+[90m19:07:42[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Profile getAnimations and sync costs[0m[K
+[90m19:07:50[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Print raw last frame of resize capture[0m[K
+[90m19:07:52[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Rerun profiler[0m[K
+[90m19:07:58[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Show profiler numbers[0m[K
+[90m19:08:02[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Debug resize frame parsing[0m[K
+[90m19:08:31[0m [34mbuild:ptest   [0m [34mopus-5.5[0m [97m“Now the test fixtures and test suite.”[0m[0m[K
+[90m19:08:36[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Give background TUI the tty and rerun r[0m…[0m[K
+[90m19:08:50[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Write test fixtures[0m[K
+[90m19:09:02[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Record progress and list real runs[0m[K
+[90m19:09:29[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Follow the live runs in feed mode for 2[0m…[0m[K
+[90m19:09:34[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Follow live runs in feed mode for 20 se[0m…[0m[K
+[90m19:10:01[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Start a 45 s background feed capture of[0m…[0m[K
+[90m19:10:05[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m [97m“Meanwhile, the TUI against the real live run[0m…[0m[K
+[90m19:10:06[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Capture the real TUI in --all mode at 8[0m…[0m[K
+[90mq · jk · ⏎ · p · a · ?[0m                                                 [90m19:10:09[0m[0m[K[J[?2026l[?2026h[H[1m2 runs[0m[90m · 2 running[0m[0m[K
+[1m[35m◆ ultrawatch[0m[0m  [90mwf_997c3870-43a[0m  [1;36m● running[0m  [97m30m24s[0m[90m since 18:39[0m   [90mdefault [0mopus-5.5[0m[K
+[1magents[0m [36m▒▒▒▒▒▒[0m[90m░░░░░░░░░░░░░[0m [32m0 done[0m[90m · [0m[36m1 running[0m[90m / 1 seen[0m[90m (~3 in script)[0m[0m[K
+[36m▶[0m[1mBuild[0m [90m0/1[0m[90m  [0m[90m·[0m[90mReview[0m [90m–[0m[90m  [0m[90m·[0m[90mFix[0m [90m–[0m[0m[K
+[90m  agent            model      time tool progress   current activity           [0m[0m[K
+[48;5;236m[36m⠴[0m[48;5;236m [93mbuild:ultrawatch[0m[48;5;236m [34mopus-5.5[0m[48;5;236m 30m24s   79 [36m██████[0m[48;5;236m[90m[0m[48;5;236m 4/4 Bash: Capture the real TUI…[0m[0m[K
+[0m[K
+[1m[35m◆ (workflow script not found)[0m[0m  [90mwf_dee01e3a-097[0m  [1;36m● running[0m  [97m21m11s[0m[90m since 18:48[0m[0m[K
+[1magents[0m [36m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[90m[0m [32m0 done[0m[90m · [0m[36m1 running[0m[90m / 1 seen[0m[0m[K
+[36m▶[0m[1mBuild[0m [90m0/1[0m[0m[K
+[90m  agent            model      time tool progress   current activity           [0m[0m[K
+[36m⠴[0m [34mbuild:ptest[0m      [34mopus-5.5[0m 21m11s   37 [36m░░░░░░▒▓▒░[0m [3mthinking…[0m                  [0m[K
+[90m── feed ──────────────────────────────────────────────────────────────────────[0m[0m[K
+[90m19:06:56[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Fix frame/resize assertions and rerun p[0m…[0m[K
+[90m19:07:20[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Exact-end timers and coarser sync[0m[K
+[90m19:07:42[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Profile getAnimations and sync costs[0m[K
+[90m19:07:50[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Print raw last frame of resize capture[0m[K
+[90m19:07:52[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Rerun profiler[0m[K
+[90m19:07:58[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Show profiler numbers[0m[K
+[90m19:08:02[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Debug resize frame parsing[0m[K
+[90m19:08:31[0m [34mbuild:ptest   [0m [34mopus-5.5[0m [97m“Now the test fixtures and test suite.”[0m[0m[K
+[90m19:08:36[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Give background TUI the tty and rerun r[0m…[0m[K
+[90m19:08:50[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Write test fixtures[0m[K
+[90m19:09:02[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Record progress and list real runs[0m[K
+[90m19:09:29[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Follow the live runs in feed mode for 2[0m…[0m[K
+[90m19:09:34[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Follow live runs in feed mode for 20 se[0m…[0m[K
+[90m19:10:01[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Start a 45 s background feed capture of[0m…[0m[K
+[90m19:10:05[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m [97m“Meanwhile, the TUI against the real live run[0m…[0m[K
+[90m19:10:06[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Capture the real TUI in --all mode at 8[0m…[0m[K
+[90mq · jk · ⏎ · p · a · ?[0m                                                 [90m19:10:09[0m[0m[K[J[?2026l[?2026h[H[1m2 runs[0m[90m · 2 running[0m[0m[K
+[1m[35m◆ ultrawatch[0m[0m  [90mwf_997c3870-43a[0m  [1;36m● running[0m  [97m30m24s[0m[90m since 18:39[0m   [90mdefault [0mopus-5.5[0m[K
+[1magents[0m [36m▒▒▒▒▒▒[0m[90m░░░░░░░░░░░░░[0m [32m0 done[0m[90m · [0m[36m1 running[0m[90m / 1 seen[0m[90m (~3 in script)[0m[0m[K
+[36m▶[0m[1mBuild[0m [90m0/1[0m[90m  [0m[90m·[0m[90mReview[0m [90m–[0m[90m  [0m[90m·[0m[90mFix[0m [90m–[0m[0m[K
+[90m  agent            model      time tool progress   current activity           [0m[0m[K
+[48;5;236m[36m⠧[0m[48;5;236m [93mbuild:ultrawatch[0m[48;5;236m [34mopus-5.5[0m[48;5;236m 30m24s   79 [36m██████[0m[48;5;236m[90m[0m[48;5;236m 4/4 Bash: Capture the real TUI…[0m[0m[K
+[0m[K
+[1m[35m◆ (workflow script not found)[0m[0m  [90mwf_dee01e3a-097[0m  [1;36m● running[0m  [97m21m11s[0m[90m since 18:48[0m[0m[K
+[1magents[0m [36m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[90m[0m [32m0 done[0m[90m · [0m[36m1 running[0m[90m / 1 seen[0m[0m[K
+[36m▶[0m[1mBuild[0m [90m0/1[0m[0m[K
+[90m  agent            model      time tool progress   current activity           [0m[0m[K
+[36m⠧[0m [34mbuild:ptest[0m      [34mopus-5.5[0m 21m11s   37 [36m░░░░▒▓▒░░░[0m [3mthinking…[0m                  [0m[K
+[90m── feed ──────────────────────────────────────────────────────────────────────[0m[0m[K
+[90m19:06:56[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Fix frame/resize assertions and rerun p[0m…[0m[K
+[90m19:07:20[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Exact-end timers and coarser sync[0m[K
+[90m19:07:42[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Profile getAnimations and sync costs[0m[K
+[90m19:07:50[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Print raw last frame of resize capture[0m[K
+[90m19:07:52[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Rerun profiler[0m[K
+[90m19:07:58[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Show profiler numbers[0m[K
+[90m19:08:02[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Debug resize frame parsing[0m[K
+[90m19:08:31[0m [34mbuild:ptest   [0m [34mopus-5.5[0m [97m“Now the test fixtures and test suite.”[0m[0m[K
+[90m19:08:36[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Give background TUI the tty and rerun r[0m…[0m[K
+[90m19:08:50[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Write test fixtures[0m[K
+[90m19:09:02[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Record progress and list real runs[0m[K
+[90m19:09:29[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Follow the live runs in feed mode for 2[0m…[0m[K
+[90m19:09:34[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Follow live runs in feed mode for 20 se[0m…[0m[K
+[90m19:10:01[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Start a 45 s background feed capture of[0m…[0m[K
+[90m19:10:05[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m [97m“Meanwhile, the TUI against the real live run[0m…[0m[K
+[90m19:10:06[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Capture the real TUI in --all mode at 8[0m…[0m[K
+[90mq · jk · ⏎ · p · a · ?[0m                                                 [90m19:10:09[0m[0m[K[J[?2026l[?2026h[H[1m2 runs[0m[90m · 2 running[0m[0m[K
+[1m[35m◆ ultrawatch[0m[0m  [90mwf_997c3870-43a[0m  [1;36m● running[0m  [97m30m24s[0m[90m since 18:39[0m   [90mdefault [0mopus-5.5[0m[K
+[1magents[0m [36m▒▒▒▒▒▒[0m[90m░░░░░░░░░░░░░[0m [32m0 done[0m[90m · [0m[36m1 running[0m[90m / 1 seen[0m[90m (~3 in script)[0m[0m[K
+[36m▶[0m[1mBuild[0m [90m0/1[0m[90m  [0m[90m·[0m[90mReview[0m [90m–[0m[90m  [0m[90m·[0m[90mFix[0m [90m–[0m[0m[K
+[90m  agent            model      time tool progress   current activity           [0m[0m[K
+[48;5;236m[36m⠋[0m[48;5;236m [93mbuild:ultrawatch[0m[48;5;236m [34mopus-5.5[0m[48;5;236m 30m24s   79 [36m██████[0m[48;5;236m[90m[0m[48;5;236m 4/4 Bash: Capture the real TUI…[0m[0m[K
+[0m[K
+[1m[35m◆ (workflow script not found)[0m[0m  [90mwf_dee01e3a-097[0m  [1;36m● running[0m  [97m21m12s[0m[90m since 18:48[0m[0m[K
+[1magents[0m [36m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[90m[0m [32m0 done[0m[90m · [0m[36m1 running[0m[90m / 1 seen[0m[0m[K
+[36m▶[0m[1mBuild[0m [90m0/1[0m[0m[K
+[90m  agent            model      time tool progress   current activity           [0m[0m[K
+[36m⠋[0m [34mbuild:ptest[0m      [34mopus-5.5[0m 21m12s   37 [36m░░░▒▓▒░░░░[0m [3mthinking…[0m                  [0m[K
+[90m── feed ──────────────────────────────────────────────────────────────────────[0m[0m[K
+[90m19:06:56[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Fix frame/resize assertions and rerun p[0m…[0m[K
+[90m19:07:20[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Exact-end timers and coarser sync[0m[K
+[90m19:07:42[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Profile getAnimations and sync costs[0m[K
+[90m19:07:50[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Print raw last frame of resize capture[0m[K
+[90m19:07:52[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Rerun profiler[0m[K
+[90m19:07:58[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Show profiler numbers[0m[K
+[90m19:08:02[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Debug resize frame parsing[0m[K
+[90m19:08:31[0m [34mbuild:ptest   [0m [34mopus-5.5[0m [97m“Now the test fixtures and test suite.”[0m[0m[K
+[90m19:08:36[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Give background TUI the tty and rerun r[0m…[0m[K
+[90m19:08:50[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Write test fixtures[0m[K
+[90m19:09:02[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Record progress and list real runs[0m[K
+[90m19:09:29[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Follow the live runs in feed mode for 2[0m…[0m[K
+[90m19:09:34[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Follow live runs in feed mode for 20 se[0m…[0m[K
+[90m19:10:01[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Start a 45 s background feed capture of[0m…[0m[K
+[90m19:10:05[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m [97m“Meanwhile, the TUI against the real live run[0m…[0m[K
+[90m19:10:06[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Capture the real TUI in --all mode at 8[0m…[0m[K
+[90mq · jk · ⏎ · p · a · ?[0m                                                 [90m19:10:10[0m[0m[K[J[?2026l[?2026h[H[1m2 runs[0m[90m · 2 running[0m[0m[K
+[1m[35m◆ ultrawatch[0m[0m  [90mwf_997c3870-43a[0m  [1;36m● running[0m  [97m30m25s[0m[90m since 18:39[0m   [90mdefault [0mopus-5.5[0m[K
+[1magents[0m [36m▒▒▒▒▒▒[0m[90m░░░░░░░░░░░░░[0m [32m0 done[0m[90m · [0m[36m1 running[0m[90m / 1 seen[0m[90m (~3 in script)[0m[0m[K
+[36m▶[0m[1mBuild[0m [90m0/1[0m[90m  [0m[90m·[0m[90mReview[0m [90m–[0m[90m  [0m[90m·[0m[90mFix[0m [90m–[0m[0m[K
+[90m  agent            model      time tool progress   current activity           [0m[0m[K
+[48;5;236m[36m⠹[0m[48;5;236m [93mbuild:ultrawatch[0m[48;5;236m [34mopus-5.5[0m[48;5;236m 30m25s   79 [36m██████[0m[48;5;236m[90m[0m[48;5;236m 4/4 Bash: Capture the real TUI…[0m[0m[K
+[0m[K
+[1m[35m◆ (workflow script not found)[0m[0m  [90mwf_dee01e3a-097[0m  [1;36m● running[0m  [97m21m12s[0m[90m since 18:48[0m[0m[K
+[1magents[0m [36m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[90m[0m [32m0 done[0m[90m · [0m[36m1 running[0m[90m / 1 seen[0m[0m[K
+[36m▶[0m[1mBuild[0m [90m0/1[0m[0m[K
+[90m  agent            model      time tool progress   current activity           [0m[0m[K
+[36m⠹[0m [34mbuild:ptest[0m      [34mopus-5.5[0m 21m12s   37 [36m░▒▓▒░░░░░░[0m [3mthinking…[0m                  [0m[K
+[90m── feed ──────────────────────────────────────────────────────────────────────[0m[0m[K
+[90m19:06:56[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Fix frame/resize assertions and rerun p[0m…[0m[K
+[90m19:07:20[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Exact-end timers and coarser sync[0m[K
+[90m19:07:42[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Profile getAnimations and sync costs[0m[K
+[90m19:07:50[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Print raw last frame of resize capture[0m[K
+[90m19:07:52[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Rerun profiler[0m[K
+[90m19:07:58[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Show profiler numbers[0m[K
+[90m19:08:02[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Debug resize frame parsing[0m[K
+[90m19:08:31[0m [34mbuild:ptest   [0m [34mopus-5.5[0m [97m“Now the test fixtures and test suite.”[0m[0m[K
+[90m19:08:36[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Give background TUI the tty and rerun r[0m…[0m[K
+[90m19:08:50[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Write test fixtures[0m[K
+[90m19:09:02[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Record progress and list real runs[0m[K
+[90m19:09:29[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Follow the live runs in feed mode for 2[0m…[0m[K
+[90m19:09:34[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Follow live runs in feed mode for 20 se[0m…[0m[K
+[90m19:10:01[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Start a 45 s background feed capture of[0m…[0m[K
+[90m19:10:05[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m [97m“Meanwhile, the TUI against the real live run[0m…[0m[K
+[90m19:10:06[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Capture the real TUI in --all mode at 8[0m…[0m[K
+[90mq · jk · ⏎ · p · a · ?[0m                                                 [90m19:10:10[0m[0m[K[J[?2026l[?2026h[H[1m2 runs[0m[90m · 2 running[0m[0m[K
+[1m[35m◆ ultrawatch[0m[0m  [90mwf_997c3870-43a[0m  [1;36m● running[0m  [97m30m25s[0m[90m since 18:39[0m   [90mdefault [0mopus-5.5[0m[K
+[1magents[0m [36m▒▒▒▒▒▒[0m[90m░░░░░░░░░░░░░[0m [32m0 done[0m[90m · [0m[36m1 running[0m[90m / 1 seen[0m[90m (~3 in script)[0m[0m[K
+[36m▶[0m[1mBuild[0m [90m0/1[0m[90m  [0m[90m·[0m[90mReview[0m [90m–[0m[90m  [0m[90m·[0m[90mFix[0m [90m–[0m[0m[K
+[90m  agent            model      time tool progress   current activity           [0m[0m[K
+[48;5;236m[36m⠴[0m[48;5;236m [93mbuild:ultrawatch[0m[48;5;236m [34mopus-5.5[0m[48;5;236m 30m25s   79 [36m██████[0m[48;5;236m[90m[0m[48;5;236m 4/4 Bash: Capture the real TUI…[0m[0m[K
+[0m[K
+[1m[35m◆ (workflow script not found)[0m[0m  [90mwf_dee01e3a-097[0m  [1;36m● running[0m  [97m21m12s[0m[90m since 18:48[0m[0m[K
+[1magents[0m [36m▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒[0m[90m[0m [32m0 done[0m[90m · [0m[36m1 running[0m[90m / 1 seen[0m[0m[K
+[36m▶[0m[1mBuild[0m [90m0/1[0m[0m[K
+[90m  agent            model      time tool progress   current activity           [0m[0m[K
+[36m⠴[0m [34mbuild:ptest[0m      [34mopus-5.5[0m 21m12s   37 [36m▒▓▒░░░░░░░[0m [3mthinking…[0m                  [0m[K
+[90m── feed ──────────────────────────────────────────────────────────────────────[0m[0m[K
+[90m19:06:56[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Fix frame/resize assertions and rerun p[0m…[0m[K
+[90m19:07:20[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Exact-end timers and coarser sync[0m[K
+[90m19:07:42[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Profile getAnimations and sync costs[0m[K
+[90m19:07:50[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Print raw last frame of resize capture[0m[K
+[90m19:07:52[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Rerun profiler[0m[K
+[90m19:07:58[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Show profiler numbers[0m[K
+[90m19:08:02[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Debug resize frame parsing[0m[K
+[90m19:08:31[0m [34mbuild:ptest   [0m [34mopus-5.5[0m [97m“Now the test fixtures and test suite.”[0m[0m[K
+[90m19:08:36[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Give background TUI the tty and rerun r[0m…[0m[K
+[90m19:08:50[0m [34mbuild:ptest   [0m [34mopus-5.5[0m Bash: Write test fixtures[0m[K
+[90m19:09:02[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Record progress and list real runs[0m[K
+[90m19:09:29[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Follow the live runs in feed mode for 2[0m…[0m[K
+[90m19:09:34[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Follow live runs in feed mode for 20 se[0m…[0m[K
+[90m19:10:01[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Start a 45 s background feed capture of[0m…[0m[K
+[90m19:10:05[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m [97m“Meanwhile, the TUI against the real live run[0m…[0m[K
+[90m19:10:06[0m [93mbuild:ultrawa…[0m [34mopus-5.5[0m Bash: Capture the real TUI in --all mode at 8[0m…[0m[K
+[90mq · jk · ⏎ · p · a · ?[0m                                                 [90m19:10:10[0m[0m[K[J[?2026l[?2026l[0m[?25h[?1049l
